@@ -1,0 +1,152 @@
+{{ define "main" }}
+{{/* Hero Section */}}
+<section class="relative overflow-hidden bg-gradient-to-br from-amber-50 via-white to-primary-50 py-16 sm:py-20 lg:py-28">
+  <div class="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-amber-100 rounded-full opacity-40 blur-3xl"></div>
+    <div class="absolute bottom-0 left-1/4 w-64 h-64 bg-primary-100 rounded-full opacity-20 blur-3xl"></div>
+  </div>
+  <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight">
+      Share Code Expiring? Get Reminded Before It's Too Late
+    </h1>
+    <p class="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+      Share codes expire silently. Get automatic reminders so you're never caught with an invalid code.
+    </p>
+    <div class="mt-10">
+      <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="inline-block transform hover:scale-105 transition-transform duration-200">
+        <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="h-16" width="220" height="65" loading="eager">
+      </a>
+    </div>
+    <div class="mt-6 flex items-center justify-center gap-4 text-sm text-gray-500">
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Auto reminders
+      </span>
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Track multiple codes
+      </span>
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Family sharing
+      </span>
+    </div>
+  </div>
+</section>
+
+{{/* Problem Section */}}
+<section class="py-16 sm:py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">Share Codes Expire Silently</h2>
+      <p class="mt-4 text-lg text-gray-600">There's no warning from the Home Office. One day it works, the next it doesn't.</p>
+    </div>
+    <div class="bg-amber-50 border border-amber-200 rounded-2xl p-8 max-w-2xl mx-auto">
+      <div class="space-y-6">
+        <div class="flex items-center gap-4">
+          <div class="flex-shrink-0 w-16 text-center">
+            <span class="text-2xl font-bold text-amber-700">30</span>
+            <span class="block text-xs text-amber-600">days</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900">Right to Work</h3>
+            <p class="text-sm text-gray-600">Expires fast — especially risky during slow HR processes</p>
+          </div>
+        </div>
+        <div class="border-t border-amber-200"></div>
+        <div class="flex items-center gap-4">
+          <div class="flex-shrink-0 w-16 text-center">
+            <span class="text-2xl font-bold text-amber-700">90</span>
+            <span class="block text-xs text-amber-600">days</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-gray-900">Right to Rent</h3>
+            <p class="text-sm text-gray-600">Longer validity, but easy to forget over 3 months</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* Solution Section */}}
+<section class="py-16 sm:py-20 bg-gradient-to-b from-amber-50 to-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Never Miss an Expiry Date</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-amber-100 rounded-lg">
+          <svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Smart Reminders</h3>
+          <p class="mt-1 text-sm text-gray-600">Get notified 7 days and 1 day before expiry. Plenty of time to generate a fresh code.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-amber-100 rounded-lg">
+          <svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Track All Codes</h3>
+          <p class="mt-1 text-sm text-gray-600">Multiple codes for different purposes? Track them all with individual expiry dates.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-amber-100 rounded-lg">
+          <svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Family Tracking</h3>
+          <p class="mt-1 text-sm text-gray-600">Keep track of your spouse's and dependants' codes too. One app for the whole family.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-amber-100 rounded-lg">
+          <svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Visual Timeline</h3>
+          <p class="mt-1 text-sm text-gray-600">See at a glance which codes are active, expiring soon, or already expired.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* CTA Section */}}
+<section class="py-16 sm:py-20 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">Stop Worrying About Expiry Dates</h2>
+    <p class="mt-4 text-lg text-gray-600">Download the free app and let it handle the reminders for you.</p>
+    <div class="mt-8">
+      <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="inline-block transform hover:scale-105 transition-transform duration-200">
+        <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="h-16" width="220" height="65" loading="lazy">
+      </a>
+    </div>
+    <p class="mt-4 text-sm text-gray-500">Free • No account required • iOS 16+</p>
+  </div>
+</section>
+
+{{/* FAQ Section */}}
+{{ with .Params.faq }}
+<section class="py-16 sm:py-20 bg-gray-50">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Expiry & Reminders FAQ</h2>
+    <div class="space-y-4">
+      {{ range . }}
+      <details class="group bg-white rounded-xl border border-gray-200 overflow-hidden">
+        <summary class="flex items-center justify-between cursor-pointer p-6 font-medium text-gray-900 hover:bg-gray-50 transition-colors">
+          <span>{{ .question }}</span>
+          <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+          {{ .answer }}
+        </div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

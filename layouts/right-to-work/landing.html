@@ -1,0 +1,144 @@
+{{ define "main" }}
+{{/* Hero Section */}}
+<section class="relative overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-primary-50 py-16 sm:py-20 lg:py-28">
+  <div class="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-indigo-100 rounded-full opacity-40 blur-3xl"></div>
+    <div class="absolute bottom-0 left-1/4 w-64 h-64 bg-primary-100 rounded-full opacity-20 blur-3xl"></div>
+  </div>
+  <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight">
+      Prove Your Right to Work — Instantly
+    </h1>
+    <p class="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+      Don't let an expired share code delay your start date. Have your right to work code ready in Apple Wallet.
+    </p>
+    <div class="mt-10">
+      <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="inline-block transform hover:scale-105 transition-transform duration-200">
+        <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="h-16" width="220" height="65" loading="eager">
+      </a>
+    </div>
+    <div class="mt-6 flex items-center justify-center gap-4 text-sm text-gray-500">
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        30-day code validity
+      </span>
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Expiry reminders
+      </span>
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Free app
+      </span>
+    </div>
+  </div>
+</section>
+
+{{/* Problem Section */}}
+<section class="py-16 sm:py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">Employers Can't Wait</h2>
+      <p class="mt-4 text-lg text-gray-600">Right to work checks must be completed before your first day. Delays cost you the job.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="text-center p-6 rounded-xl bg-amber-50 border border-amber-100">
+        <div class="text-3xl mb-3">⏱️</div>
+        <h3 class="font-semibold text-gray-900 mb-2">30-Day Window</h3>
+        <p class="text-sm text-gray-600">Right to work codes expire in just 30 days. If HR is slow, you'll need a fresh one.</p>
+      </div>
+      <div class="text-center p-6 rounded-xl bg-amber-50 border border-amber-100">
+        <div class="text-3xl mb-3">💰</div>
+        <h3 class="font-semibold text-gray-900 mb-2">£60k Fines</h3>
+        <p class="text-sm text-gray-600">Employers face up to £60,000 per illegal worker. They won't start you without verification.</p>
+      </div>
+      <div class="text-center p-6 rounded-xl bg-amber-50 border border-amber-100">
+        <div class="text-3xl mb-3">📅</div>
+        <h3 class="font-semibold text-gray-900 mb-2">Delayed Start</h3>
+        <p class="text-sm text-gray-600">No valid code means no start date. Every day of delay is lost income.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* Solution Section */}}
+<section class="py-16 sm:py-20 bg-gradient-to-b from-primary-50 to-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Be Job-Ready in Seconds</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-green-100 rounded-lg">
+          <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Always Valid</h3>
+          <p class="mt-1 text-sm text-gray-600">Get reminded before your code expires so you always have a valid one ready for employers.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-green-100 rounded-lg">
+          <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">In Your Wallet</h3>
+          <p class="mt-1 text-sm text-gray-600">Access your code from Apple Wallet — no app to open, no login needed. Just show it.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-green-100 rounded-lg">
+          <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Share Easily</h3>
+          <p class="mt-1 text-sm text-gray-600">Send your code to HR via the app's QR code feature — professional and instant.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-green-100 rounded-lg">
+          <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Family Codes</h3>
+          <p class="mt-1 text-sm text-gray-600">Track codes for your whole family — spouse, partner, dependants — all in one place.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* CTA Section */}}
+<section class="py-16 sm:py-20 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">Start Your New Job Without Delays</h2>
+    <p class="mt-4 text-lg text-gray-600">Download the free app and have your right to work code ready for any employer.</p>
+    <div class="mt-8">
+      <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="inline-block transform hover:scale-105 transition-transform duration-200">
+        <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="h-16" width="220" height="65" loading="lazy">
+      </a>
+    </div>
+    <p class="mt-4 text-sm text-gray-500">Free • No account required • iOS 16+</p>
+  </div>
+</section>
+
+{{/* FAQ Section */}}
+{{ with .Params.faq }}
+<section class="py-16 sm:py-20 bg-gray-50">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Right to Work FAQ</h2>
+    <div class="space-y-4">
+      {{ range . }}
+      <details class="group bg-white rounded-xl border border-gray-200 overflow-hidden">
+        <summary class="flex items-center justify-between cursor-pointer p-6 font-medium text-gray-900 hover:bg-gray-50 transition-colors">
+          <span>{{ .question }}</span>
+          <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+          {{ .answer }}
+        </div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

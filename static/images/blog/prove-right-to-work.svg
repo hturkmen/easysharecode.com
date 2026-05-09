@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#EEF2FF"/>
+  <rect x="200" y="80" width="400" height="240" rx="16" fill="white" stroke="#C7D2FE" stroke-width="2"/>
+  <rect x="230" y="110" width="340" height="50" rx="8" fill="#EEF2FF"/>
+  <text x="400" y="142" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#4338CA">Right to Work Check</text>
+  <rect x="250" y="180" width="120" height="8" rx="4" fill="#E0E7FF"/>
+  <rect x="250" y="200" width="180" height="8" rx="4" fill="#E0E7FF"/>
+  <rect x="250" y="220" width="100" height="8" rx="4" fill="#E0E7FF"/>
+  <rect x="430" y="180" width="120" height="60" rx="8" fill="#C7D2FE" opacity="0.5"/>
+  <circle cx="490" cy="200" r="12" fill="#A5B4FC"/>
+  <rect x="475" y="215" width="30" height="15" rx="3" fill="#A5B4FC"/>
+  <rect x="250" y="260" width="300" height="40" rx="8" fill="#4F46E5" opacity="0.1"/>
+  <path d="M270 280l8 8 16-16" stroke="#4F46E5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="284" font-family="sans-serif" font-size="14" fill="#4338CA" font-weight="bold">Verified — Can work in the UK</text>
+  <text x="400" y="360" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#312E81">Prove Your Right to Work</text>
+</svg>

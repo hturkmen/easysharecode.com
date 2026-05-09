@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#EFF6FF"/>
+  <rect x="50" y="50" width="700" height="300" rx="20" fill="white" stroke="#BFDBFE" stroke-width="2"/>
+  <rect x="280" y="120" width="240" height="60" rx="10" fill="#2563EB" opacity="0.1" stroke="#2563EB" stroke-width="2"/>
+  <text x="400" y="158" text-anchor="middle" font-family="monospace" font-size="24" font-weight="bold" fill="#1E40AF">W7X-K9M-2P</text>
+  <text x="400" y="220" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#6B7280">UK Home Office Share Code</text>
+  <circle cx="400" cy="290" r="30" fill="#DBEAFE"/>
+  <path d="M388 290l8 8 16-16" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="340" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#9CA3AF">Complete Guide 2025</text>
+</svg>

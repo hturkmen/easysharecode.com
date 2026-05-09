@@ -2,3 +2,12 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.easysharecode.com/sitemap.xml
+Sitemap: https://www.easysharecode.com/en/sitemap.xml
+Sitemap: https://www.easysharecode.com/de/sitemap.xml
+Sitemap: https://www.easysharecode.com/fr/sitemap.xml
+Sitemap: https://www.easysharecode.com/es/sitemap.xml
+Sitemap: https://www.easysharecode.com/tr/sitemap.xml
+Sitemap: https://www.easysharecode.com/pt/sitemap.xml
+Sitemap: https://www.easysharecode.com/pl/sitemap.xml
+Sitemap: https://www.easysharecode.com/ro/sitemap.xml
+Sitemap: https://www.easysharecode.com/it/sitemap.xml

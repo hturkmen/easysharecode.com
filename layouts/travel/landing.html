@@ -1,0 +1,144 @@
+{{ define "main" }}
+{{/* Hero Section */}}
+<section class="relative overflow-hidden bg-gradient-to-br from-sky-50 via-white to-primary-50 py-16 sm:py-20 lg:py-28">
+  <div class="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-sky-100 rounded-full opacity-40 blur-3xl"></div>
+    <div class="absolute bottom-0 left-1/4 w-64 h-64 bg-primary-100 rounded-full opacity-20 blur-3xl"></div>
+  </div>
+  <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight">
+      Your eVisa Share Code — Ready at the Border
+    </h1>
+    <p class="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+      No WiFi at the airport? No problem. Access your share code offline from Apple Wallet when border agents need it.
+    </p>
+    <div class="mt-10">
+      <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="inline-block transform hover:scale-105 transition-transform duration-200">
+        <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="h-16" width="220" height="65" loading="eager">
+      </a>
+    </div>
+    <div class="mt-6 flex items-center justify-center gap-4 text-sm text-gray-500">
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Works offline
+      </span>
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Apple Wallet
+      </span>
+      <span class="flex items-center gap-1">
+        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Free app
+      </span>
+    </div>
+  </div>
+</section>
+
+{{/* Problem Section */}}
+<section class="py-16 sm:py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">The Airport Nightmare</h2>
+      <p class="mt-4 text-lg text-gray-600">You're at the border, the officer asks for your eVisa details, and you can't get online.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="text-center p-6 rounded-xl bg-red-50 border border-red-100">
+        <div class="text-3xl mb-3">✈️</div>
+        <h3 class="font-semibold text-gray-900 mb-2">No Airport WiFi</h3>
+        <p class="text-sm text-gray-600">Many airports have unreliable or paid WiFi. You can't access gov.uk when you need it most.</p>
+      </div>
+      <div class="text-center p-6 rounded-xl bg-red-50 border border-red-100">
+        <div class="text-3xl mb-3">🔋</div>
+        <h3 class="font-semibold text-gray-900 mb-2">Dead Battery</h3>
+        <p class="text-sm text-gray-600">After a long flight, your phone might be low. Apple Wallet works even in low power mode.</p>
+      </div>
+      <div class="text-center p-6 rounded-xl bg-red-50 border border-red-100">
+        <div class="text-3xl mb-3">😰</div>
+        <h3 class="font-semibold text-gray-900 mb-2">Border Stress</h3>
+        <p class="text-sm text-gray-600">Fumbling through emails while an officer waits is stressful. Have your code ready instantly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* Solution Section */}}
+<section class="py-16 sm:py-20 bg-gradient-to-b from-sky-50 to-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Travel with Confidence</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sky-100 rounded-lg">
+          <svg class="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Offline Access</h3>
+          <p class="mt-1 text-sm text-gray-600">Your share code is stored locally in Apple Wallet. No internet, no problem.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sky-100 rounded-lg">
+          <svg class="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Instant Display</h3>
+          <p class="mt-1 text-sm text-gray-600">Double-click your side button and your code appears. Faster than any app or email.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sky-100 rounded-lg">
+          <svg class="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Backup Proof</h3>
+          <p class="mt-1 text-sm text-gray-600">If automated border systems are down, your stored code gives officers an alternative way to verify you.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sky-100 rounded-lg">
+          <svg class="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-900">Pre-Trip Reminders</h3>
+          <p class="mt-1 text-sm text-gray-600">Get notified if your code is about to expire before your travel date.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* CTA Section */}}
+<section class="py-16 sm:py-20 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">Prepare Before You Fly</h2>
+    <p class="mt-4 text-lg text-gray-600">Download the free app and store your share code in Apple Wallet before your next trip.</p>
+    <div class="mt-8">
+      <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="inline-block transform hover:scale-105 transition-transform duration-200">
+        <img src="/images/app-store-badge.svg" alt="Download on the App Store" class="h-16" width="220" height="65" loading="lazy">
+      </a>
+    </div>
+    <p class="mt-4 text-sm text-gray-500">Free • No account required • iOS 16+</p>
+  </div>
+</section>
+
+{{/* FAQ Section */}}
+{{ with .Params.faq }}
+<section class="py-16 sm:py-20 bg-gray-50">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Travel & Border FAQ</h2>
+    <div class="space-y-4">
+      {{ range . }}
+      <details class="group bg-white rounded-xl border border-gray-200 overflow-hidden">
+        <summary class="flex items-center justify-between cursor-pointer p-6 font-medium text-gray-900 hover:bg-gray-50 transition-colors">
+          <span>{{ .question }}</span>
+          <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </summary>
+        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+          {{ .answer }}
+        </div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

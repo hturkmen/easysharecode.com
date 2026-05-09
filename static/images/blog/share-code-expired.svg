@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#FFFBEB"/>
+  <rect x="250" y="80" width="300" height="180" rx="16" fill="white" stroke="#FDE68A" stroke-width="2"/>
+  <rect x="280" y="110" width="240" height="50" rx="8" fill="#FEF3C7"/>
+  <text x="400" y="142" text-anchor="middle" font-family="monospace" font-size="20" fill="#92400E" text-decoration="line-through">A3B-X7Y-9K</text>
+  <circle cx="400" cy="210" r="25" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="400" y="218" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#D97706">!</text>
+  <text x="400" y="300" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#92400E">Share Code Expired</text>
+  <text x="400" y="330" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#B45309">Here's What to Do</text>
+  <path d="M320 360h160" stroke="#F59E0B" stroke-width="2"/>
+  <circle cx="320" cy="360" r="4" fill="#F59E0B"/>
+  <circle cx="480" cy="360" r="4" fill="#F59E0B"/>
+</svg>

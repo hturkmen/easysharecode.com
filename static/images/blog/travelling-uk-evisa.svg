@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#F0F9FF"/>
+  <path d="M100 300 Q400 250 700 300" stroke="#BAE6FD" stroke-width="2" fill="none"/>
+  <path d="M350 150 L400 130 L450 150 L440 155 L400 140 L360 155 Z" fill="#0EA5E9"/>
+  <rect x="385" y="155" width="30" height="60" rx="4" fill="#0EA5E9"/>
+  <path d="M350 180 L385 175 L385 195 L350 200 Z" fill="#38BDF8"/>
+  <path d="M415 175 L450 180 L450 200 L415 195 Z" fill="#38BDF8"/>
+  <circle cx="200" cy="280" r="30" fill="white" stroke="#BAE6FD" stroke-width="2"/>
+  <rect x="188" y="270" width="24" height="30" rx="3" fill="#0EA5E9" opacity="0.3"/>
+  <rect x="192" y="275" width="16" height="4" rx="1" fill="#0EA5E9"/>
+  <circle cx="600" cy="280" r="30" fill="white" stroke="#BAE6FD" stroke-width="2"/>
+  <rect x="585" y="268" width="30" height="24" rx="4" fill="#0EA5E9" opacity="0.2" stroke="#0EA5E9" stroke-width="1.5"/>
+  <path d="M595 280l5 5 10-10" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round"/>
+  <text x="400" y="350" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#0C4A6E">Travelling with an eVisa</text>
+  <text x="400" y="375" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#6B7280">What You Need at the Border</text>
+</svg>
