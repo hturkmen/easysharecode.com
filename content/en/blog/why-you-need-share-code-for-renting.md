@@ -5,7 +5,7 @@ draft: false
 description: "Understanding the right to rent check and how your share code helps landlords verify your immigration status"
 categories: ["Visa Information"]
 tags: ["share-code", "renting", "right-to-rent", "landlord"]
-image: "/images/blog/renting-share-code.webp"
+image: "/images/blog/renting-share-code.svg"
 author: "Easy Share Code Team"
 ---
 

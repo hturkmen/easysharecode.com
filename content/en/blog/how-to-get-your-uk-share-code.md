@@ -5,7 +5,7 @@ draft: false
 description: "Step-by-step guide to obtaining your UK Home Office share code for proving your immigration status"
 categories: ["UK Share Code Guide"]
 tags: ["share-code", "home-office", "guide", "immigration"]
-image: "/images/blog/share-code-guide.webp"
+image: "/images/blog/share-code-guide.svg"
 author: "Easy Share Code Team"
 ---
 
