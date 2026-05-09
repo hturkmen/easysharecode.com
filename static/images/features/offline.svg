@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 480" fill="none">
+  <!-- iPhone frame -->
+  <rect x="3" y="3" width="234" height="474" rx="33" fill="#1a1a1a"/>
+  <rect x="7" y="7" width="226" height="466" rx="30" fill="#000000"/>
+  <!-- Screen area -->
+  <rect x="10" y="10" width="220" height="460" rx="27" fill="#f8fafc"/>
+
+  <!-- Status bar -->
+  <rect x="10" y="10" width="220" height="34" rx="27" fill="#2563eb"/>
+  <rect x="90" y="13" width="60" height="18" rx="9" fill="#000000"/>
+  <text x="28" y="28" font-family="SF Pro, -apple-system, sans-serif" font-size="9" font-weight="600" fill="white">9:41</text>
+  <!-- No signal indicator -->
+  <text x="190" y="28" font-family="SF Pro, -apple-system, sans-serif" font-size="8" fill="white" opacity="0.6">✕</text>
+  <rect x="199" y="22" width="16" height="7" rx="1.5" stroke="white" stroke-width="1" fill="none"/>
+  <rect x="201" y="24" width="6" height="3" rx="1" fill="white"/>
+
+  <!-- Offline banner -->
+  <rect x="10" y="44" width="220" height="28" fill="#fef3c7"/>
+  <text x="120" y="62" font-family="SF Pro, -apple-system, sans-serif" font-size="9" font-weight="500" fill="#d97706" text-anchor="middle">⚠ No Internet Connection — Offline Mode</text>
+
+  <!-- App header -->
+  <rect x="10" y="72" width="220" height="45" fill="white"/>
+  <rect x="10" y="116" width="220" height="1" fill="#e2e8f0"/>
+  <circle cx="32" cy="94" r="12" fill="#2563eb"/>
+  <text x="27" y="98" font-family="monospace" font-size="9" fill="white">&lt;/&gt;</text>
+  <text x="50" y="90" font-family="SF Pro, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1e293b">Easy Share Code</text>
+  <text x="50" y="103" font-family="SF Pro, -apple-system, sans-serif" font-size="9" fill="#64748b">Your codes, secured</text>
+
+  <!-- Offline available badge -->
+  <rect x="50" y="124" width="140" height="24" rx="12" fill="#dbeafe"/>
+  <text x="120" y="139" font-family="SF Pro, -apple-system, sans-serif" font-size="9" font-weight="500" fill="#2563eb" text-anchor="middle">✓ All codes available offline</text>
+
+  <!-- Card 1 - Active (accessible offline) -->
+  <rect x="18" y="158" width="204" height="68" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="38" cy="180" r="10" fill="#dcfce7"/>
+  <path d="M34 180l3 3 6-6" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="54" y="177" font-family="SF Pro, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#1e293b">Right to Work</text>
+  <text x="54" y="190" font-family="SF Pro, monospace" font-size="9" fill="#64748b">W7X-K9M-2PL</text>
+  <rect x="54" y="198" width="44" height="16" rx="8" fill="#dcfce7"/>
+  <text x="62" y="209" font-family="SF Pro, -apple-system, sans-serif" font-size="8" font-weight="500" fill="#10b981">Active</text>
+  <!-- Offline icon -->
+  <circle cx="196" cy="180" r="8" fill="#f1f5f9"/>
+  <text x="192" y="184" font-family="SF Pro, -apple-system, sans-serif" font-size="8" fill="#64748b">📱</text>
+
+  <!-- Card 2 - Active (accessible offline) -->
+  <rect x="18" y="234" width="204" height="68" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="38" cy="256" r="10" fill="#dcfce7"/>
+  <path d="M34 256l3 3 6-6" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="54" y="253" font-family="SF Pro, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#1e293b">Right to Rent</text>
+  <text x="54" y="266" font-family="SF Pro, monospace" font-size="9" fill="#64748b">M3N-P8Q-5RT</text>
+  <rect x="54" y="274" width="44" height="16" rx="8" fill="#dcfce7"/>
+  <text x="62" y="285" font-family="SF Pro, -apple-system, sans-serif" font-size="8" font-weight="500" fill="#10b981">Active</text>
+  <!-- Offline icon -->
+  <circle cx="196" cy="256" r="8" fill="#f1f5f9"/>
+  <text x="192" y="260" font-family="SF Pro, -apple-system, sans-serif" font-size="8" fill="#64748b">📱</text>
+
+  <!-- Card 3 - Expiring (accessible offline) -->
+  <rect x="18" y="310" width="204" height="68" rx="10" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="38" cy="332" r="10" fill="#fef3c7"/>
+  <text x="34" y="336" font-family="SF Pro, -apple-system, sans-serif" font-size="11" fill="#f59e0b">⚠</text>
+  <text x="54" y="329" font-family="SF Pro, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#1e293b">Benefits Check</text>
+  <text x="54" y="342" font-family="SF Pro, monospace" font-size="9" fill="#64748b">R5T-V2W-8XY</text>
+  <rect x="54" y="350" width="70" height="16" rx="8" fill="#fef3c7"/>
+  <text x="60" y="361" font-family="SF Pro, -apple-system, sans-serif" font-size="8" font-weight="500" fill="#d97706">Expires in 2 days</text>
+  <!-- Offline icon -->
+  <circle cx="196" cy="332" r="8" fill="#f1f5f9"/>
+  <text x="192" y="336" font-family="SF Pro, -apple-system, sans-serif" font-size="8" fill="#64748b">📱</text>
+
+  <!-- Bottom info -->
+  <rect x="30" y="400" width="180" height="50" rx="10" fill="#f1f5f9"/>
+  <text x="120" y="420" font-family="SF Pro, -apple-system, sans-serif" font-size="9" font-weight="500" fill="#475569" text-anchor="middle">Data stored securely on device</text>
+  <text x="120" y="436" font-family="SF Pro, -apple-system, sans-serif" font-size="8" fill="#64748b" text-anchor="middle">Last synced: 2 hours ago</text>
+</svg>
