@@ -1,0 +1,72 @@
+/* Easy Share Code - Custom Styles */
+/* Light mode color palette - professional, trustworthy design */
+/* Compatible with the iOS app's visual identity */
+
+/* ===========================
+   Color Palette (Light Theme)
+   ===========================
+   Primary Blue:    #2563eb (trust, professionalism)
+   Primary Dark:    #1e40af (headings, emphasis)
+   Accent Sky:      #0ea5e9 (links, interactive elements)
+   Background:      #ffffff (main background)
+   Surface:         #f8fafc (cards, sections)
+   Border:          #e2e8f0 (subtle borders)
+   Text Primary:    #1e293b (main text)
+   Text Secondary:  #64748b (secondary text)
+   Success:         #10b981 (positive indicators)
+   Warning:         #f59e0b (alerts, FOMO elements)
+   Error:           #ef4444 (urgent messages)
+*/
+
+/* Base typography */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* CTA button base style */
+.btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+/* Card component base */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Section spacing */
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}

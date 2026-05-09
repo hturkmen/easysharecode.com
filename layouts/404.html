@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="min-h-[60vh] flex items-center justify-center px-4">
+  <div class="text-center max-w-md">
+    <h1 class="text-6xl font-bold text-primary-600 mb-4">404</h1>
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">{{ i18n "error_404_title" }}</h2>
+    <p class="text-gray-600 mb-8">{{ i18n "error_404_message" }}</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="{{ "/" | relLangURL }}" class="inline-block bg-primary-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+        {{ i18n "error_404_home" }}
+      </a>
+      <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="inline-block bg-gray-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-900 transition-colors">
+        {{ i18n "error_404_download" }}
+      </a>
+    </div>
+  </div>
+</section>
+{{ end }}

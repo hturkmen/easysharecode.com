@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Inicio"
+nav_features: "Funciones"
+nav_blog: "Blog"
+nav_download: "Descargar"
+nav_language: "Cambiar idioma"
+skip_to_content: "Ir al contenido principal"
+
+# Hero Section
+hero_title: "Tu UK Share Code, siempre listo"
+hero_subtitle: "Almacena, gestiona y comparte tus códigos Home Office de forma segura"
+hero_fomo: "¿Tu share code está listo? Accede en segundos durante una emergencia."
+hero_cta: "Descargar en el App Store"
+
+# FOMO Section
+fomo_warning_title: "¡Tu Share Code puede caducar!"
+fomo_warning_text: "Los share codes tienen 3 períodos de validez diferentes. No te dejes sorprender."
+fomo_question: "¿No encuentras tu share code en una emergencia?"
+fomo_scenarios_title: "Cuándo necesitas tu Share Code"
+fomo_scenario_job: "Solicitudes de empleo"
+fomo_scenario_rent: "Contratos de alquiler"
+fomo_scenario_official: "Trámites oficiales"
+fomo_scenario_travel: "Entrada y salida"
+fomo_family_title: "Controla los Share Codes de tu familia"
+fomo_family_text: "Mantén los share codes de todos los miembros de la familia organizados en un solo lugar"
+fomo_validity_title: "3 períodos de validez a controlar"
+fomo_validity_30: "30 días"
+fomo_validity_60: "60 días"
+fomo_validity_90: "90 días"
+fomo_validity_desc: "Cada share code tiene una fecha de caducidad diferente. Mantén el control de todos."
+
+# Features Section
+features_title: "Todo lo que necesitas"
+feature_multi_store: "Múltiples Share Codes"
+feature_multi_store_desc: "Almacena share codes ilimitados para ti y tu familia"
+feature_qr: "Visualización QR"
+feature_qr_desc: "Muestra tu share code como QR para verificación rápida"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Añade tu share code a Apple Wallet para acceso instantáneo"
+feature_reminder: "Recordatorios de caducidad"
+feature_reminder_desc: "Nunca pierdas una fecha de caducidad de share code"
+feature_offline: "Acceso sin conexión"
+feature_offline_desc: "Accede a tus códigos en cualquier momento, incluso sin internet"
+feature_languages: "32 idiomas"
+feature_languages_desc: "Usa la aplicación en tu idioma preferido"
+
+# Pricing Section
+pricing_title: "Elige tu plan"
+pricing_free: "Gratis"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/año"
+pricing_recommended: "Recomendado"
+pricing_free_feature_1: "Almacenar 1 share code"
+pricing_free_feature_2: "Visualización QR básica"
+pricing_free_feature_3: "Un solo idioma"
+pricing_premium_feature_1: "Share codes ilimitados"
+pricing_premium_feature_2: "Integración Apple Wallet"
+pricing_premium_feature_3: "Recordatorios de caducidad"
+pricing_premium_feature_4: "32 idiomas"
+pricing_premium_feature_5: "Compartir en familia"
+pricing_premium_feature_6: "Acceso sin conexión"
+pricing_cta: "Comenzar"
+
+# CTA Section
+cta_title: "¿Listo para asegurar tu Share Code?"
+cta_subtitle: "Descarga ahora y nunca más te preocupes por perder tu share code"
+
+# Footer
+footer_description: "Almacena y gestiona tus códigos UK Home Office de forma segura"
+footer_quick_links: "Enlaces rápidos"
+footer_privacy: "Política de privacidad"
+footer_contact: "Contacto"
+footer_copyright: "© 2025 Easy Share Code. Todos los derechos reservados."
+
+# Blog Section
+blog_title: "Últimos artículos"
+blog_read_more: "Leer más"
+blog_view_all: "Ver todos los artículos"
+blog_no_posts: "Aún no hay artículos. ¡Vuelve pronto!"
+blog_category_all: "Todos"
+blog_category_guide: "Guía UK Share Code"
+blog_category_visa: "Información de visados"
+blog_category_experience: "Experiencias de usuarios"
+blog_related: "Artículos relacionados"
+blog_back: "Volver al blog"
+
+# 404 Page
+error_404_title: "Página no encontrada"
+error_404_message: "La página que buscas no existe o ha sido movida."
+error_404_home: "Ir a la página principal"
+error_404_download: "Descargar la aplicación"

@@ -1,0 +1,120 @@
+{{/* FOMO Section - Urgency and scenario-based motivation */}}
+<section class="section bg-white" aria-labelledby="fomo-title">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    {{/* Warning Card - Share code expiration alert */}}
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 sm:p-8 mb-12" role="alert">
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 text-amber-500" aria-hidden="true">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+          </svg>
+        </div>
+        <div>
+          <h2 id="fomo-title" class="text-xl sm:text-2xl font-bold text-amber-800">
+            {{ i18n "fomo_warning_title" }}
+          </h2>
+          <p class="mt-2 text-amber-700 text-base sm:text-lg">
+            {{ i18n "fomo_warning_text" }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {{/* Urgency Question - Large, bold, visually distinct */}}
+    <div class="text-center mb-12">
+      <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
+        {{ i18n "fomo_question" }}
+      </p>
+    </div>
+
+    {{/* Scenarios - When you need your share code */}}
+    <div class="mb-16">
+      <h3 class="text-xl sm:text-2xl font-semibold text-gray-900 text-center mb-8">
+        {{ i18n "fomo_scenarios_title" }}
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {{/* Job Applications */}}
+        <div class="card flex flex-col items-center text-center p-6">
+          <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <span class="font-medium text-gray-900">{{ i18n "fomo_scenario_job" }}</span>
+        </div>
+
+        {{/* Rental Agreements */}}
+        <div class="card flex flex-col items-center text-center p-6">
+          <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+            </svg>
+          </div>
+          <span class="font-medium text-gray-900">{{ i18n "fomo_scenario_rent" }}</span>
+        </div>
+
+        {{/* Official Procedures */}}
+        <div class="card flex flex-col items-center text-center p-6">
+          <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+          </div>
+          <span class="font-medium text-gray-900">{{ i18n "fomo_scenario_official" }}</span>
+        </div>
+
+        {{/* Entry & Exit */}}
+        <div class="card flex flex-col items-center text-center p-6">
+          <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+            <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <span class="font-medium text-gray-900">{{ i18n "fomo_scenario_travel" }}</span>
+        </div>
+      </div>
+    </div>
+
+    {{/* Family Tracking Emphasis */}}
+    <div class="bg-blue-50 border border-blue-200 rounded-xl p-6 sm:p-8 mb-16">
+      <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+        <div class="flex-shrink-0 text-blue-600" aria-hidden="true">
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+          </svg>
+        </div>
+        <div class="text-center sm:text-left">
+          <h3 class="text-xl sm:text-2xl font-bold text-blue-900">
+            {{ i18n "fomo_family_title" }}
+          </h3>
+          <p class="mt-2 text-blue-700 text-base sm:text-lg">
+            {{ i18n "fomo_family_text" }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {{/* Validity Periods - 3 badges/cards */}}
+    <div class="text-center">
+      <h3 class="text-xl sm:text-2xl font-semibold text-gray-900 mb-6">
+        {{ i18n "fomo_validity_title" }}
+      </h3>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-6">
+        <div class="bg-amber-100 text-amber-800 font-bold text-lg sm:text-xl px-6 py-3 rounded-full border border-amber-300">
+          {{ i18n "fomo_validity_30" }}
+        </div>
+        <div class="bg-orange-100 text-orange-800 font-bold text-lg sm:text-xl px-6 py-3 rounded-full border border-orange-300">
+          {{ i18n "fomo_validity_60" }}
+        </div>
+        <div class="bg-red-100 text-red-800 font-bold text-lg sm:text-xl px-6 py-3 rounded-full border border-red-300">
+          {{ i18n "fomo_validity_90" }}
+        </div>
+      </div>
+      <p class="text-gray-600 text-base sm:text-lg max-w-xl mx-auto">
+        {{ i18n "fomo_validity_desc" }}
+      </p>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,77 @@
+{{/* Footer - Site footer with brand info, quick links, and download */}}
+<footer class="bg-gray-900 text-gray-300" role="contentinfo">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+
+    {{/* Footer Grid - 3 columns on desktop, stacked on mobile */}}
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
+
+      {{/* Column 1: Brand Info */}}
+      <div>
+        <a href="{{ .Site.BaseURL }}" class="inline-flex items-center gap-2" aria-label="Easy Share Code - Home">
+          <img src="/images/logo.svg" alt="Easy Share Code logo" class="h-8 w-8" width="32" height="32" loading="lazy">
+          <span class="text-lg font-semibold text-white">Easy Share Code</span>
+        </a>
+        <p class="mt-4 text-sm text-gray-400 leading-relaxed">
+          {{ i18n "footer_description" }}
+        </p>
+      </div>
+
+      {{/* Column 2: Quick Links */}}
+      <div>
+        <h3 class="text-sm font-semibold text-white uppercase tracking-wider">
+          {{ i18n "footer_quick_links" }}
+        </h3>
+        <nav class="mt-4" aria-label="Footer navigation">
+          <ul class="space-y-3" role="list">
+            <li>
+              <a href="{{ .Site.BaseURL }}" class="text-sm text-gray-400 hover:text-white transition-colors">
+                {{ i18n "nav_home" }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ .Site.BaseURL }}#features" class="text-sm text-gray-400 hover:text-white transition-colors">
+                {{ i18n "nav_features" }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ .Site.BaseURL }}blog/" class="text-sm text-gray-400 hover:text-white transition-colors">
+                {{ i18n "nav_blog" }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ .Site.BaseURL }}#privacy" class="text-sm text-gray-400 hover:text-white transition-colors">
+                {{ i18n "footer_privacy" }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ .Site.BaseURL }}#contact" class="text-sm text-gray-400 hover:text-white transition-colors">
+                {{ i18n "footer_contact" }}
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      {{/* Column 3: Download */}}
+      <div>
+        <h3 class="text-sm font-semibold text-white uppercase tracking-wider">
+          {{ i18n "nav_download" }}
+        </h3>
+        <div class="mt-4">
+          <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ i18n "hero_cta" }}">
+            <img src="/images/app-store-badge.svg" alt="{{ i18n "hero_cta" }}" class="h-12 hover:opacity-80 transition-opacity" width="170" height="50" loading="lazy">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    {{/* Copyright Bar */}}
+    <div class="mt-12 pt-8 border-t border-gray-800 text-center">
+      <p class="text-sm text-gray-500">
+        {{ i18n "footer_copyright" }}
+      </p>
+    </div>
+
+  </div>
+</footer>

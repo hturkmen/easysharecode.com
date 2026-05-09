@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Acasă"
+nav_features: "Funcționalități"
+nav_blog: "Blog"
+nav_download: "Descarcă"
+nav_language: "Schimbă limba"
+skip_to_content: "Treceți la conținutul principal"
+
+# Hero Section
+hero_title: "Codul tău UK Share, mereu pregătit"
+hero_subtitle: "Stochează, gestionează și partajează codurile tale Home Office în siguranță"
+hero_fomo: "Codul tău share este pregătit? Accesează-l în câteva secunde într-o urgență."
+hero_cta: "Descarcă din App Store"
+
+# FOMO Section
+fomo_warning_title: "Codul tău Share poate expira!"
+fomo_warning_text: "Codurile share au 3 perioade de valabilitate diferite. Nu te lăsa surprins."
+fomo_question: "Nu poți găsi codul tău share într-o urgență?"
+fomo_scenarios_title: "Când ai nevoie de codul tău Share"
+fomo_scenario_job: "Aplicații pentru locuri de muncă"
+fomo_scenario_rent: "Contracte de închiriere"
+fomo_scenario_official: "Proceduri oficiale"
+fomo_scenario_travel: "Intrare și ieșire"
+fomo_family_title: "Urmărește codurile Share ale familiei tale"
+fomo_family_text: "Păstrează codurile share ale tuturor membrilor familiei organizate într-un singur loc"
+fomo_validity_title: "3 perioade de valabilitate de urmărit"
+fomo_validity_30: "30 de zile"
+fomo_validity_60: "60 de zile"
+fomo_validity_90: "90 de zile"
+fomo_validity_desc: "Fiecare cod share are o dată de expirare diferită. Ține-le pe toate sub control."
+
+# Features Section
+features_title: "Tot ce ai nevoie"
+feature_multi_store: "Coduri Share multiple"
+feature_multi_store_desc: "Stochează coduri share nelimitate pentru tine și familia ta"
+feature_qr: "Afișare cod QR"
+feature_qr_desc: "Arată codul tău share ca QR pentru verificare rapidă"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Adaugă codul tău share în Apple Wallet pentru acces instant"
+feature_reminder: "Memento-uri de expirare"
+feature_reminder_desc: "Nu rata niciodată o dată de expirare a codului share"
+feature_offline: "Acces offline"
+feature_offline_desc: "Accesează codurile tale oricând, chiar și fără internet"
+feature_languages: "32 de limbi"
+feature_languages_desc: "Folosește aplicația în limba ta preferată"
+
+# Pricing Section
+pricing_title: "Alege planul tău"
+pricing_free: "Gratuit"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/an"
+pricing_recommended: "Recomandat"
+pricing_free_feature_1: "Stochează 1 cod share"
+pricing_free_feature_2: "Afișare QR code de bază"
+pricing_free_feature_3: "O singură limbă"
+pricing_premium_feature_1: "Coduri share nelimitate"
+pricing_premium_feature_2: "Integrare Apple Wallet"
+pricing_premium_feature_3: "Memento-uri de expirare"
+pricing_premium_feature_4: "32 de limbi"
+pricing_premium_feature_5: "Partajare în familie"
+pricing_premium_feature_6: "Acces offline"
+pricing_cta: "Începe"
+
+# CTA Section
+cta_title: "Pregătit să îți securizezi codul Share?"
+cta_subtitle: "Descarcă acum și nu te mai îngrijora niciodată de pierderea codului tău share"
+
+# Footer
+footer_description: "Stochează și gestionează codurile tale UK Home Office în siguranță"
+footer_quick_links: "Linkuri rapide"
+footer_privacy: "Politica de confidențialitate"
+footer_contact: "Contact"
+footer_copyright: "© 2025 Easy Share Code. Toate drepturile rezervate."
+
+# Blog Section
+blog_title: "Ultimele articole"
+blog_read_more: "Citește mai mult"
+blog_view_all: "Vezi toate articolele"
+blog_no_posts: "Încă nu sunt articole. Revino curând!"
+blog_category_all: "Toate"
+blog_category_guide: "Ghid UK Share Code"
+blog_category_visa: "Informații despre viză"
+blog_category_experience: "Experiențe ale utilizatorilor"
+blog_related: "Articole conexe"
+blog_back: "Înapoi la blog"
+
+# 404 Page
+error_404_title: "Pagina nu a fost găsită"
+error_404_message: "Pagina pe care o căutați nu există sau a fost mutată."
+error_404_home: "Mergi la pagina principală"
+error_404_download: "Descarcă aplicația"

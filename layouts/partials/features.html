@@ -1,0 +1,107 @@
+{{/* Features Section - App capabilities showcase with icon cards */}}
+<section id="features" class="section bg-gray-50" aria-labelledby="features-title">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    {{/* Section Title */}}
+    <div class="text-center mb-12">
+      <h2 id="features-title" class="text-3xl sm:text-4xl font-bold text-gray-900">
+        {{ i18n "features_title" }}
+      </h2>
+    </div>
+
+    {{/* Features Grid - 1 col mobile, 2 col tablet, 3 col desktop */}}
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" role="list">
+
+      {{/* Feature 1: Multiple Share Codes */}}
+      <div class="card flex flex-col items-center text-center p-6" role="listitem">
+        <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+          <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">
+          {{ i18n "feature_multi_store" }}
+        </h3>
+        <p class="text-gray-600 text-sm">
+          {{ i18n "feature_multi_store_desc" }}
+        </p>
+      </div>
+
+      {{/* Feature 2: QR Code Display */}}
+      <div class="card flex flex-col items-center text-center p-6" role="listitem">
+        <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+          <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"></path>
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">
+          {{ i18n "feature_qr" }}
+        </h3>
+        <p class="text-gray-600 text-sm">
+          {{ i18n "feature_qr_desc" }}
+        </p>
+      </div>
+
+      {{/* Feature 3: Apple Wallet */}}
+      <div class="card flex flex-col items-center text-center p-6" role="listitem">
+        <div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+          <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">
+          {{ i18n "feature_wallet" }}
+        </h3>
+        <p class="text-gray-600 text-sm">
+          {{ i18n "feature_wallet_desc" }}
+        </p>
+      </div>
+
+      {{/* Feature 4: Expiry Reminders */}}
+      <div class="card flex flex-col items-center text-center p-6" role="listitem">
+        <div class="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+          <svg class="w-7 h-7 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">
+          {{ i18n "feature_reminder" }}
+        </h3>
+        <p class="text-gray-600 text-sm">
+          {{ i18n "feature_reminder_desc" }}
+        </p>
+      </div>
+
+      {{/* Feature 5: Offline Access */}}
+      <div class="card flex flex-col items-center text-center p-6" role="listitem">
+        <div class="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+          <svg class="w-7 h-7 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-2.83m-1.414 5.658a9 9 0 01-2.167-9.238m7.824 2.167a1 1 0 111.414 1.414"></path>
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">
+          {{ i18n "feature_offline" }}
+        </h3>
+        <p class="text-gray-600 text-sm">
+          {{ i18n "feature_offline_desc" }}
+        </p>
+      </div>
+
+      {{/* Feature 6: 32 Languages */}}
+      <div class="card flex flex-col items-center text-center p-6" role="listitem">
+        <div class="w-14 h-14 bg-rose-100 rounded-full flex items-center justify-center mb-4" aria-hidden="true">
+          <svg class="w-7 h-7 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">
+          {{ i18n "feature_languages" }}
+        </h3>
+        <p class="text-gray-600 text-sm">
+          {{ i18n "feature_languages_desc" }}
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>

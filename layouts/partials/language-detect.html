@@ -1,0 +1,83 @@
+{{- if eq .Site.Language.Lang "en" -}}
+<!-- Language Detection Banner - Only shown on English pages when browser language differs -->
+<div id="lang-suggest-banner" class="hidden bg-blue-50 border-b border-blue-200" role="alert" aria-label="Language suggestion">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+    <p id="lang-suggest-text" class="text-sm text-blue-800 flex items-center gap-2">
+      <svg class="h-4 w-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/>
+      </svg>
+      <span id="lang-suggest-message"></span>
+      <a id="lang-suggest-link" href="#" class="font-semibold underline hover:text-blue-900 transition-colors ml-1"></a>
+    </p>
+    <button id="lang-suggest-dismiss" type="button" class="ml-4 flex-shrink-0 p-1 rounded-md text-blue-600 hover:text-blue-800 hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" aria-label="Dismiss language suggestion">
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+(function() {
+  var SUPPORTED_LANGUAGES = {
+    'tr': { name: 'Türkçe', path: '/tr/' },
+    'de': { name: 'Deutsch', path: '/de/' },
+    'fr': { name: 'Français', path: '/fr/' },
+    'es': { name: 'Español', path: '/es/' },
+    'pt': { name: 'Português', path: '/pt/' },
+    'pl': { name: 'Polski', path: '/pl/' },
+    'ro': { name: 'Română', path: '/ro/' },
+    'it': { name: 'Italiano', path: '/it/' }
+  };
+
+  var STORAGE_KEY = 'lang-suggest-dismissed';
+
+  // Check if user already dismissed the banner
+  try {
+    if (localStorage.getItem(STORAGE_KEY)) {
+      return;
+    }
+  } catch (e) {
+    // localStorage not available, continue without persistence
+  }
+
+  // Detect browser language
+  var browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+  // Extract primary language code (e.g., 'tr-TR' -> 'tr')
+  var primaryLang = browserLang.split('-')[0];
+
+  // Check if browser language is supported and different from current (English)
+  if (!SUPPORTED_LANGUAGES[primaryLang]) {
+    return;
+  }
+
+  var langInfo = SUPPORTED_LANGUAGES[primaryLang];
+  var banner = document.getElementById('lang-suggest-banner');
+  var message = document.getElementById('lang-suggest-message');
+  var link = document.getElementById('lang-suggest-link');
+  var dismissBtn = document.getElementById('lang-suggest-dismiss');
+
+  if (!banner || !message || !link || !dismissBtn) {
+    return;
+  }
+
+  // Set banner content
+  message.textContent = 'This page is available in ' + langInfo.name + '.';
+  link.textContent = 'Switch to ' + langInfo.name;
+  link.href = langInfo.path;
+
+  // Show the banner
+  banner.classList.remove('hidden');
+
+  // Dismiss handler
+  dismissBtn.addEventListener('click', function() {
+    banner.classList.add('hidden');
+    try {
+      localStorage.setItem(STORAGE_KEY, '1');
+    } catch (e) {
+      // Silently fail if localStorage is not available
+    }
+  });
+})();
+</script>
+{{- end -}}

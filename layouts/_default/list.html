@@ -1,0 +1,191 @@
+{{/* Blog List Template - Shows blog posts in a grid with category filtering */}}
+{{ define "main" }}
+<section class="section bg-white" aria-labelledby="blog-list-title">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    {{/* Page Title */}}
+    <div class="text-center mb-12">
+      <h1 id="blog-list-title" class="text-3xl sm:text-4xl font-bold text-gray-900">
+        {{ i18n "blog_title" }}
+      </h1>
+    </div>
+
+    {{/* Category Filter */}}
+    {{ $categories := slice "UK Share Code Guide" "Visa Information" "User Experiences" }}
+    <nav class="mb-10" aria-label="Blog category filter">
+      <ul class="flex flex-wrap justify-center gap-3" role="tablist">
+        <li role="presentation">
+          <button
+            class="category-filter px-4 py-2 rounded-full text-sm font-medium bg-blue-600 text-white transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+            role="tab"
+            aria-selected="true"
+            data-category="all"
+          >
+            {{ i18n "blog_category_all" }}
+          </button>
+        </li>
+        <li role="presentation">
+          <button
+            class="category-filter px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+            role="tab"
+            aria-selected="false"
+            data-category="UK Share Code Guide"
+          >
+            {{ i18n "blog_category_guide" }}
+          </button>
+        </li>
+        <li role="presentation">
+          <button
+            class="category-filter px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+            role="tab"
+            aria-selected="false"
+            data-category="Visa Information"
+          >
+            {{ i18n "blog_category_visa" }}
+          </button>
+        </li>
+        <li role="presentation">
+          <button
+            class="category-filter px-4 py-2 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+            role="tab"
+            aria-selected="false"
+            data-category="User Experiences"
+          >
+            {{ i18n "blog_category_experience" }}
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    {{/* Blog Posts Grid - sorted by date (newest first, Hugo default) */}}
+    {{ $pages := .Pages.ByDate.Reverse }}
+    {{ if $pages }}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" role="list" id="blog-grid">
+      {{ range $pages }}
+      <article
+        class="blog-card card flex flex-col overflow-hidden rounded-xl transition-shadow duration-200 hover:shadow-md"
+        role="listitem"
+        {{ with .Params.categories }}data-categories="{{ delimit . "," }}"{{ end }}
+      >
+        {{/* Cover Image */}}
+        {{ if .Params.image }}
+        <a href="{{ .Permalink }}" class="block aspect-video overflow-hidden" aria-hidden="true" tabindex="-1">
+          <img
+            src="{{ .Params.image }}"
+            alt="{{ .Title }}"
+            class="w-full h-full object-cover transition-transform duration-200 hover:scale-105"
+            width="400"
+            height="225"
+            loading="lazy"
+          >
+        </a>
+        {{ else }}
+        <a href="{{ .Permalink }}" class="block aspect-video overflow-hidden bg-gray-100 flex items-center justify-center" aria-hidden="true" tabindex="-1">
+          <div class="w-full h-full bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center">
+            <svg class="w-12 h-12 text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+            </svg>
+          </div>
+        </a>
+        {{ end }}
+
+        {{/* Card Content */}}
+        <div class="flex flex-col flex-1 p-5">
+          {{/* Categories */}}
+          {{ with .Params.categories }}
+          <div class="flex flex-wrap gap-2 mb-3">
+            {{ range . }}
+            <span class="inline-block px-2 py-0.5 text-xs font-medium bg-blue-50 text-blue-700 rounded">
+              {{ . }}
+            </span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{/* Title */}}
+          <h2 class="text-lg font-semibold text-gray-900 mb-2 line-clamp-2">
+            <a href="{{ .Permalink }}" class="hover:text-blue-600 transition-colors duration-200">
+              {{ .Title }}
+            </a>
+          </h2>
+
+          {{/* Date */}}
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-sm text-gray-500 mb-3">
+            {{ .Date.Format "2 January 2006" }}
+          </time>
+
+          {{/* Summary/Description */}}
+          {{ if .Description }}
+          <p class="text-gray-600 text-sm line-clamp-3 flex-1">
+            {{ .Description }}
+          </p>
+          {{ else if .Summary }}
+          <p class="text-gray-600 text-sm line-clamp-3 flex-1">
+            {{ .Summary }}
+          </p>
+          {{ end }}
+
+          {{/* Read More Link */}}
+          <a href="{{ .Permalink }}" class="inline-flex items-center mt-4 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors duration-200">
+            {{ i18n "blog_read_more" }}
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    {{ else }}
+    {{/* No Posts Message */}}
+    <div class="text-center py-16">
+      <svg class="w-16 h-16 text-gray-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+      </svg>
+      <p class="text-gray-500 text-lg">
+        {{ i18n "blog_no_posts" }}
+      </p>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+
+{{/* Category Filter JavaScript */}}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.category-filter');
+    const blogCards = document.querySelectorAll('.blog-card');
+
+    filterButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        const category = this.getAttribute('data-category');
+
+        // Update active button styles
+        filterButtons.forEach(function(btn) {
+          btn.classList.remove('bg-blue-600', 'text-white');
+          btn.classList.add('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
+          btn.setAttribute('aria-selected', 'false');
+        });
+        this.classList.remove('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
+        this.classList.add('bg-blue-600', 'text-white');
+        this.setAttribute('aria-selected', 'true');
+
+        // Filter cards
+        blogCards.forEach(function(card) {
+          if (category === 'all') {
+            card.style.display = '';
+          } else {
+            var cardCategories = card.getAttribute('data-categories') || '';
+            if (cardCategories.indexOf(category) !== -1) {
+              card.style.display = '';
+            } else {
+              card.style.display = 'none';
+            }
+          }
+        });
+      });
+    });
+  });
+</script>
+{{ end }}

@@ -1,0 +1,23 @@
+{{/* CTA Section - Final call-to-action with gradient background */}}
+<section class="section bg-gradient-to-r from-blue-600 to-blue-800" aria-labelledby="cta-title">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+    {{/* CTA Title */}}
+    <h2 id="cta-title" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
+      {{ i18n "cta_title" }}
+    </h2>
+
+    {{/* CTA Subtitle */}}
+    <p class="mt-4 text-lg sm:text-xl text-blue-100 max-w-2xl mx-auto">
+      {{ i18n "cta_subtitle" }}
+    </p>
+
+    {{/* App Store Badge */}}
+    <div class="mt-8">
+      <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ i18n "hero_cta" }}">
+        <img src="/images/app-store-badge.svg" alt="{{ i18n "hero_cta" }}" class="h-14 inline-block hover:opacity-80 transition-opacity" width="200" height="60" loading="lazy">
+      </a>
+    </div>
+
+  </div>
+</section>

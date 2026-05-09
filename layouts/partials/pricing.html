@@ -1,0 +1,120 @@
+{{/* Pricing Section - Free vs Premium plan comparison */}}
+<section id="pricing" class="section bg-white" aria-labelledby="pricing-title">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    {{/* Section Title */}}
+    <div class="text-center mb-12">
+      <h2 id="pricing-title" class="text-3xl sm:text-4xl font-bold text-gray-900">
+        {{ i18n "pricing_title" }}
+      </h2>
+    </div>
+
+    {{/* Pricing Cards Grid - stacked on mobile, two columns on desktop */}}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+      {{/* Free Plan Card */}}
+      <div class="card flex flex-col p-8">
+        <div class="text-center mb-6">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            {{ i18n "pricing_free" }}
+          </h3>
+          <p class="text-3xl font-bold text-gray-900">
+            {{ i18n "pricing_free_price" }}
+          </p>
+        </div>
+
+        {{/* Free Plan Features */}}
+        <ul class="flex-1 space-y-4 mb-8" role="list">
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_free_feature_1" }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_free_feature_2" }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_free_feature_3" }}</span>
+          </li>
+        </ul>
+
+        {{/* Free Plan CTA */}}
+        <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="btn-primary block text-center">
+          {{ i18n "pricing_cta" }}
+        </a>
+      </div>
+
+      {{/* Premium Plan Card - Highlighted */}}
+      <div class="card flex flex-col p-8 border-2 border-blue-600 shadow-lg relative">
+        {{/* Recommended Badge */}}
+        <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+          <span class="bg-blue-600 text-white text-sm font-semibold px-4 py-1 rounded-full">
+            {{ i18n "pricing_recommended" }}
+          </span>
+        </div>
+
+        <div class="text-center mb-6 mt-2">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            {{ i18n "pricing_premium" }}
+          </h3>
+          <p class="text-3xl font-bold text-blue-600">
+            {{ i18n "pricing_premium_price" }}
+          </p>
+        </div>
+
+        {{/* Premium Plan Features */}}
+        <ul class="flex-1 space-y-4 mb-8" role="list">
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_premium_feature_1" }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_premium_feature_2" }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_premium_feature_3" }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_premium_feature_4" }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_premium_feature_5" }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">{{ i18n "pricing_premium_feature_6" }}</span>
+          </li>
+        </ul>
+
+        {{/* Premium Plan CTA */}}
+        <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" class="btn-primary block text-center">
+          {{ i18n "pricing_cta" }}
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>

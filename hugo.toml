@@ -1,0 +1,47 @@
+baseURL = "https://www.easysharecode.com/"
+title = "Easy Share Code UK"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+  [languages.tr]
+    languageName = "Türkçe"
+    weight = 2
+    contentDir = "content/tr"
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 3
+    contentDir = "content/de"
+  [languages.fr]
+    languageName = "Français"
+    weight = 4
+    contentDir = "content/fr"
+  [languages.es]
+    languageName = "Español"
+    weight = 5
+    contentDir = "content/es"
+  [languages.pt]
+    languageName = "Português"
+    weight = 6
+    contentDir = "content/pt"
+  [languages.pl]
+    languageName = "Polski"
+    weight = 7
+    contentDir = "content/pl"
+  [languages.ro]
+    languageName = "Română"
+    weight = 8
+    contentDir = "content/ro"
+  [languages.it]
+    languageName = "Italiano"
+    weight = 9
+    contentDir = "content/it"
+
+[params]
+  appStoreURL = "https://apps.apple.com/gb/app/easy-share-code-uk/id6744980944"
+  description = "Manage your UK Home Office share codes securely"
+  author = "Easy Share Code"

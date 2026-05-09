@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Ana Sayfa"
+nav_features: "Özellikler"
+nav_blog: "Blog"
+nav_download: "İndir"
+nav_language: "Dil değiştir"
+skip_to_content: "Ana içeriğe geç"
+
+# Hero Section
+hero_title: "UK Share Code'unuz Her Zaman Hazır"
+hero_subtitle: "Home Office share code'larınızı güvenle saklayın, yönetin ve paylaşın"
+hero_fomo: "Share code'unuz hazır mı? Acil bir durumda saniyeler içinde erişin."
+hero_cta: "App Store'dan İndir"
+
+# FOMO Section
+fomo_warning_title: "Share Code'unuzun Süresi Dolabilir!"
+fomo_warning_text: "Share code'ların 3 farklı geçerlilik süresi vardır. Hazırlıksız yakalanmayın."
+fomo_question: "Acil durumda share code'unuzu bulamıyor musunuz?"
+fomo_scenarios_title: "Share Code'unuza Ne Zaman İhtiyacınız Olur"
+fomo_scenario_job: "İş Başvuruları"
+fomo_scenario_rent: "Kira Sözleşmeleri"
+fomo_scenario_official: "Resmi İşlemler"
+fomo_scenario_travel: "Giriş ve Çıkış"
+fomo_family_title: "Ailenizin Share Code'larını Takip Edin"
+fomo_family_text: "Tüm aile üyelerinin share code'larını tek bir yerde düzenli tutun"
+fomo_validity_title: "Takip Edilecek 3 Geçerlilik Süresi"
+fomo_validity_30: "30 gün"
+fomo_validity_60: "60 gün"
+fomo_validity_90: "90 gün"
+fomo_validity_desc: "Her share code'un farklı bir son kullanma tarihi vardır. Hepsini takip edin."
+
+# Features Section
+features_title: "İhtiyacınız Olan Her Şey"
+feature_multi_store: "Çoklu Share Code"
+feature_multi_store_desc: "Kendiniz ve aileniz için sınırsız share code saklayın"
+feature_qr: "QR Kod Gösterimi"
+feature_qr_desc: "Hızlı doğrulama için share code'unuzu QR olarak gösterin"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Anında erişim için share code'unuzu Apple Wallet'a ekleyin"
+feature_reminder: "Süre Dolum Hatırlatıcıları"
+feature_reminder_desc: "Share code süre dolumunu asla kaçırmayın"
+feature_offline: "Çevrimdışı Erişim"
+feature_offline_desc: "İnternet olmadan bile kodlarınıza her zaman erişin"
+feature_languages: "32 Dil"
+feature_languages_desc: "Uygulamayı tercih ettiğiniz dilde kullanın"
+
+# Pricing Section
+pricing_title: "Planınızı Seçin"
+pricing_free: "Ücretsiz"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/yıl"
+pricing_recommended: "Önerilen"
+pricing_free_feature_1: "1 share code saklama"
+pricing_free_feature_2: "Temel QR kod gösterimi"
+pricing_free_feature_3: "Tek dil"
+pricing_premium_feature_1: "Sınırsız share code"
+pricing_premium_feature_2: "Apple Wallet entegrasyonu"
+pricing_premium_feature_3: "Süre dolum hatırlatıcıları"
+pricing_premium_feature_4: "32 dil"
+pricing_premium_feature_5: "Aile paylaşımı"
+pricing_premium_feature_6: "Çevrimdışı erişim"
+pricing_cta: "Başlayın"
+
+# CTA Section
+cta_title: "Share Code'unuzu Güvenceye Almaya Hazır mısınız?"
+cta_subtitle: "Hemen indirin ve share code'unuzu kaybetme endişesinden kurtulun"
+
+# Footer
+footer_description: "UK Home Office share code'larınızı güvenle saklayın ve yönetin"
+footer_quick_links: "Hızlı Bağlantılar"
+footer_privacy: "Gizlilik Politikası"
+footer_contact: "İletişim"
+footer_copyright: "© 2025 Easy Share Code. Tüm hakları saklıdır."
+
+# Blog Section
+blog_title: "Son Yazılar"
+blog_read_more: "Devamını Oku"
+blog_view_all: "Tüm Yazıları Gör"
+blog_no_posts: "Henüz yazı yok. Yakında tekrar kontrol edin!"
+blog_category_all: "Tümü"
+blog_category_guide: "UK Share Code Rehberi"
+blog_category_visa: "Vize Bilgileri"
+blog_category_experience: "Kullanıcı Deneyimleri"
+blog_related: "İlgili Yazılar"
+blog_back: "Blog'a Dön"
+
+# 404 Page
+error_404_title: "Sayfa Bulunamadı"
+error_404_message: "Aradığınız sayfa mevcut değil veya taşınmış."
+error_404_home: "Ana Sayfaya Git"
+error_404_download: "Uygulamayı İndir"
