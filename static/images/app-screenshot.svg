@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 640" fill="none">
+  <!-- iPhone frame -->
+  <rect x="4" y="4" width="312" height="632" rx="44" fill="#1a1a1a"/>
+  <rect x="10" y="10" width="300" height="620" rx="40" fill="#000000"/>
+  <!-- Screen area -->
+  <rect x="14" y="14" width="292" height="612" rx="36" fill="#f8fafc"/>
+  
+  <!-- Status bar -->
+  <rect x="14" y="14" width="292" height="44" rx="36" fill="#2563eb"/>
+  <!-- Notch/Dynamic Island -->
+  <rect x="120" y="18" width="80" height="24" rx="12" fill="#000000"/>
+  <!-- Time -->
+  <text x="40" y="38" font-family="SF Pro, -apple-system, sans-serif" font-size="12" font-weight="600" fill="white">9:41</text>
+  <!-- Signal/Battery icons -->
+  <rect x="260" y="30" width="20" height="9" rx="2" stroke="white" stroke-width="1.5" fill="none"/>
+  <rect x="262" y="32" width="14" height="5" rx="1" fill="white"/>
+  
+  <!-- App header -->
+  <rect x="14" y="58" width="292" height="60" fill="white"/>
+  <rect x="14" y="117" width="292" height="1" fill="#e2e8f0"/>
+  <!-- App logo in header -->
+  <circle cx="44" cy="88" r="16" fill="#2563eb"/>
+  <text x="38" y="93" font-family="monospace" font-size="12" fill="white">&lt;/&gt;</text>
+  <text x="68" y="84" font-family="SF Pro, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1e293b">Easy Share Code</text>
+  <text x="68" y="100" font-family="SF Pro, -apple-system, sans-serif" font-size="11" fill="#64748b">Your codes, secured</text>
+  
+  <!-- Share code cards -->
+  <!-- Card 1 - Active -->
+  <rect x="26" y="130" width="268" height="90" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="26" y="130" width="268" height="90" rx="12" fill="white" filter="url(#shadow1)"/>
+  <circle cx="50" cy="160" r="14" fill="#dcfce7"/>
+  <path d="M44 160l4 4 8-8" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="155" font-family="SF Pro, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1e293b">Right to Work</text>
+  <text x="72" y="172" font-family="SF Pro, -apple-system, monospace" font-size="11" fill="#64748b">Code: W7X-K9M-2PL</text>
+  <rect x="72" y="182" width="60" height="20" rx="10" fill="#dcfce7"/>
+  <text x="82" y="196" font-family="SF Pro, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#10b981">Active</text>
+  <text x="200" y="196" font-family="SF Pro, -apple-system, sans-serif" font-size="10" fill="#64748b">Expires: 28 Dec</text>
+  
+  <!-- Card 2 - Active -->
+  <rect x="26" y="232" width="268" height="90" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="50" cy="262" r="14" fill="#dcfce7"/>
+  <path d="M44 262l4 4 8-8" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="257" font-family="SF Pro, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1e293b">Right to Rent</text>
+  <text x="72" y="274" font-family="SF Pro, -apple-system, monospace" font-size="11" fill="#64748b">Code: M3N-P8Q-5RT</text>
+  <rect x="72" y="284" width="60" height="20" rx="10" fill="#dcfce7"/>
+  <text x="82" y="298" font-family="SF Pro, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#10b981">Active</text>
+  <text x="200" y="298" font-family="SF Pro, -apple-system, sans-serif" font-size="10" fill="#64748b">Expires: 15 Jan</text>
+  
+  <!-- Card 3 - Expiring soon -->
+  <rect x="26" y="334" width="268" height="90" rx="12" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="50" cy="364" r="14" fill="#fef3c7"/>
+  <text x="44" y="369" font-family="SF Pro, -apple-system, sans-serif" font-size="14" fill="#f59e0b">⚠</text>
+  <text x="72" y="359" font-family="SF Pro, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#1e293b">Benefits Check</text>
+  <text x="72" y="376" font-family="SF Pro, -apple-system, monospace" font-size="11" fill="#64748b">Code: R5T-V2W-8XY</text>
+  <rect x="72" y="386" width="90" height="20" rx="10" fill="#fef3c7"/>
+  <text x="80" y="400" font-family="SF Pro, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#d97706">Expires in 2 days</text>
+  <text x="200" y="400" font-family="SF Pro, -apple-system, sans-serif" font-size="10" fill="#64748b">Expires: 20 Dec</text>
+  
+  <!-- Card 4 - Expired -->
+  <rect x="26" y="436" width="268" height="90" rx="12" fill="#fafafa" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="50" cy="466" r="14" fill="#fee2e2"/>
+  <text x="44" y="471" font-family="SF Pro, -apple-system, sans-serif" font-size="14" fill="#ef4444">✕</text>
+  <text x="72" y="461" font-family="SF Pro, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#9ca3af">Employer Check</text>
+  <text x="72" y="478" font-family="SF Pro, -apple-system, monospace" font-size="11" fill="#9ca3af">Code: A1B-C3D-4EF</text>
+  <rect x="72" y="488" width="60" height="20" rx="10" fill="#fee2e2"/>
+  <text x="82" y="502" font-family="SF Pro, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#ef4444">Expired</text>
+  <text x="200" y="502" font-family="SF Pro, -apple-system, sans-serif" font-size="10" fill="#9ca3af">Expired: 01 Dec</text>
+  
+  <!-- Bottom tab bar -->
+  <rect x="14" y="576" width="292" height="50" rx="0" fill="white"/>
+  <rect x="14" y="575" width="292" height="1" fill="#e2e8f0"/>
+  <!-- Tab icons -->
+  <rect x="60" y="588" width="20" height="3" rx="1.5" fill="#2563eb"/>
+  <rect x="60" y="594" width="20" height="3" rx="1.5" fill="#2563eb"/>
+  <rect x="60" y="600" width="14" height="3" rx="1.5" fill="#2563eb"/>
+  <text x="56" y="618" font-family="SF Pro, -apple-system, sans-serif" font-size="9" fill="#2563eb">Codes</text>
+  
+  <circle cx="160" cy="596" r="10" stroke="#64748b" stroke-width="1.5" fill="none"/>
+  <text x="157" y="600" font-family="SF Pro, -apple-system, sans-serif" font-size="10" fill="#64748b">+</text>
+  <text x="148" y="618" font-family="SF Pro, -apple-system, sans-serif" font-size="9" fill="#64748b">Add</text>
+  
+  <rect x="237" y="589" width="16" height="16" rx="3" stroke="#64748b" stroke-width="1.5" fill="none"/>
+  <text x="232" y="618" font-family="SF Pro, -apple-system, sans-serif" font-size="9" fill="#64748b">Settings</text>
+  
+  <!-- Home indicator -->
+  <rect x="120" y="630" width="80" height="4" rx="2" fill="#000000" opacity="0.3"/>
+  
+  <!-- Shadow filter -->
+  <defs>
+    <filter id="shadow1" x="-4" y="-2" width="276" height="98" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+</svg>

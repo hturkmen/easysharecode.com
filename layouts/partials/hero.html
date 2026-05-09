@@ -1,33 +1,76 @@
 {{/* Hero Section - Landing page hero with CTA and app mockup */}}
-<section class="section bg-gradient-to-b from-blue-50 to-white" aria-labelledby="hero-title">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-primary-50" aria-labelledby="hero-title">
+  {{/* Decorative background elements */}}
+  <div class="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-100 rounded-full opacity-40 blur-3xl"></div>
+    <div class="absolute top-1/2 -left-32 w-72 h-72 bg-blue-100 rounded-full opacity-30 blur-3xl"></div>
+    <div class="absolute bottom-0 right-1/4 w-64 h-64 bg-accent-100 rounded-full opacity-20 blur-3xl"></div>
+    {{/* Subtle grid pattern */}}
+    <svg class="absolute inset-0 w-full h-full opacity-[0.03]" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2563eb" stroke-width="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#hero-grid)"/>
+    </svg>
+  </div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-28">
     <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
       {{/* Text Content - Left side on desktop, top on mobile */}}
       <div class="flex-1 text-center lg:text-left">
-        <h1 id="hero-title" class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+        <h1 id="hero-title" class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight">
           {{ i18n "hero_title" }}
         </h1>
-        <p class="mt-4 text-lg sm:text-xl text-gray-600 max-w-xl mx-auto lg:mx-0">
+        <p class="mt-6 text-lg sm:text-xl text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
           {{ i18n "hero_subtitle" }}
         </p>
 
-        {{/* FOMO Message */}}
-        <p class="mt-6 text-base sm:text-lg font-semibold bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
-          {{ i18n "hero_fomo" }}
-        </p>
+        {{/* FOMO Message - More prominent */}}
+        <div class="mt-8 inline-flex items-center gap-2 px-4 py-2.5 bg-amber-50 border border-amber-200 rounded-full">
+          <span class="flex h-2.5 w-2.5 relative">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-amber-500"></span>
+          </span>
+          <p class="text-sm sm:text-base font-semibold text-amber-700">
+            {{ i18n "hero_fomo" }}
+          </p>
+        </div>
 
         {{/* App Store CTA Button */}}
         <div class="mt-8">
-          <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ i18n "hero_cta" }}">
-            <img src="/images/app-store-badge.svg" alt="{{ i18n "hero_cta" }}" class="h-14 inline-block hover:opacity-80 transition-opacity" width="200" height="60" loading="eager">
+          <a href="{{ .Site.Params.appStoreURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ i18n "hero_cta" }}" class="inline-block transform hover:scale-105 transition-transform duration-200">
+            <img src="/images/app-store-badge.svg" alt="{{ i18n "hero_cta" }}" class="h-14" width="200" height="60" loading="eager">
           </a>
+        </div>
+
+        {{/* Trust indicators */}}
+        <div class="mt-6 flex items-center justify-center lg:justify-start gap-4 text-sm text-gray-500">
+          <span class="flex items-center gap-1">
+            <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Free to use
+          </span>
+          <span class="flex items-center gap-1">
+            <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Secure &amp; Private
+          </span>
+          <span class="flex items-center gap-1">
+            <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            iOS App
+          </span>
         </div>
       </div>
 
       {{/* App Mockup/Screenshot - Right side on desktop, bottom on mobile */}}
       <div class="flex-1 flex justify-center lg:justify-end">
         <div class="relative w-64 sm:w-72 lg:w-80">
-          <img src="/images/app-screenshot.webp" alt="Easy Share Code UK app screenshot showing share code management" class="w-full h-auto rounded-3xl shadow-2xl" width="320" height="640" loading="eager">
+          {{/* Phone frame glow effect */}}
+          <div class="absolute -inset-4 bg-gradient-to-r from-primary-400 to-accent-400 rounded-[3rem] opacity-20 blur-2xl"></div>
+          {{/* Phone shadow */}}
+          <div class="absolute inset-0 translate-y-4 bg-black/20 rounded-[2.5rem] blur-xl"></div>
+          {{/* Screenshot image */}}
+          <img src="/images/app-screenshot.svg" alt="Easy Share Code UK app screenshot showing share code management" class="relative w-full h-auto rounded-[2.5rem] shadow-2xl ring-1 ring-black/5" width="320" height="640" loading="eager">
         </div>
       </div>
     </div>

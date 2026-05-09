@@ -4,15 +4,7 @@
       <!-- Logo + Brand Name -->
       <div class="flex-shrink-0">
         <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center space-x-2 text-primary-700 hover:text-primary-800 transition-colors">
-          {{ $logo := resources.Get "images/logo.svg" }}
-          {{ if $logo }}
-            <img src="{{ $logo.RelPermalink }}" alt="Easy Share Code logo" class="h-8 w-8" width="32" height="32" loading="eager">
-          {{ else }}
-            <svg class="h-8 w-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <rect width="32" height="32" rx="8" fill="currentColor"/>
-              <path d="M8 12h16M8 16h12M8 20h14" stroke="white" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          {{ end }}
+          <img src="/images/logo.svg" alt="Easy Share Code logo" class="h-8 w-8" width="32" height="32" loading="eager">
           <span class="text-xl font-bold">Easy Share Code</span>
         </a>
       </div>
