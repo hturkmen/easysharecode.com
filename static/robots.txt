@@ -1,6 +1,25 @@
 User-agent: *
 Allow: /
 
+# AI Crawlers - Explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 Sitemap: https://www.easysharecode.com/sitemap.xml
 Sitemap: https://www.easysharecode.com/en/sitemap.xml
 Sitemap: https://www.easysharecode.com/de/sitemap.xml

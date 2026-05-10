@@ -1,0 +1,28 @@
+# Easy Share Code UK
+
+## About
+Easy Share Code is a free iOS app that helps UK eVisa holders store, manage, and access their Home Office share codes securely. The app allows users to add their share code to Apple Wallet for instant offline access.
+
+## Key Features
+- Store UK eVisa share codes in Apple Wallet
+- Offline access to share codes (no internet needed)
+- Expiry reminders (30, 60, 90 day validity tracking)
+- QR code display for quick verification
+- Store unlimited codes for family members
+- Available in 32 languages
+
+## Use Cases
+- Prove right to work to employers
+- Prove right to rent to landlords
+- Show immigration status at UK border
+- Quick access during job interviews or property viewings
+
+## Who Is It For
+- UK eVisa holders
+- People with settled or pre-settled status (EUSS)
+- Anyone with digital immigration status in the UK
+- Families managing multiple share codes
+
+## Links
+- Website: https://www.easysharecode.com
+- App Store: https://apps.apple.com/gb/app/easy-share-code-uk/id6744980944
