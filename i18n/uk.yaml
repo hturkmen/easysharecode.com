@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Головна"
+nav_features: "Функції"
+nav_blog: "Блог"
+nav_download: "Завантажити"
+nav_language: "Змінити мову"
+skip_to_content: "Перейти до основного вмісту"
+
+# Hero Section
+hero_title: "Ваш UK Share Code, завжди готовий"
+hero_subtitle: "Безпечно зберігайте, керуйте та діліться своїми кодами Home Office"
+hero_fomo: "Ваш share code готовий? Доступ за секунди в екстреній ситуації."
+hero_cta: "Завантажити з App Store"
+
+# FOMO Section
+fomo_warning_title: "Ваш Share Code може закінчитися!"
+fomo_warning_text: "Share коди мають 3 різні терміни дії. Не дайте застати себе зненацька."
+fomo_question: "Не можете знайти share code в екстреній ситуації?"
+fomo_scenarios_title: "Коли потрібен Share Code"
+fomo_scenario_job: "Заявки на роботу"
+fomo_scenario_rent: "Договори оренди"
+fomo_scenario_official: "Офіційні процедури"
+fomo_scenario_travel: "В'їзд та виїзд"
+fomo_family_title: "Відстежуйте Share коди родини"
+fomo_family_text: "Зберігайте коди всіх членів родини організовано в одному місці"
+fomo_validity_title: "3 терміни дії для відстеження"
+fomo_validity_30: "30 днів"
+fomo_validity_60: "60 днів"
+fomo_validity_90: "90 днів"
+fomo_validity_desc: "Кожен share code має свій термін закінчення. Слідкуйте за всіма."
+
+# Features Section
+features_title: "Все, що вам потрібно"
+feature_multi_store: "Кілька Share кодів"
+feature_multi_store_desc: "Зберігайте необмежену кількість share кодів для себе та родини"
+feature_qr: "Відображення QR-коду"
+feature_qr_desc: "Покажіть share code як QR для швидкої перевірки"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Додайте share code в Apple Wallet для миттєвого доступу"
+feature_reminder: "Нагадування про закінчення"
+feature_reminder_desc: "Ніколи не пропустіть дату закінчення share code"
+feature_offline: "Офлайн доступ"
+feature_offline_desc: "Доступ до кодів у будь-який час, навіть без інтернету"
+feature_languages: "32 мови"
+feature_languages_desc: "Використовуйте додаток бажаною мовою"
+
+# Pricing Section
+pricing_title: "Оберіть план"
+pricing_free: "Безкоштовно"
+pricing_premium: "Преміум"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/рік"
+pricing_recommended: "Рекомендований"
+pricing_free_feature_1: "Зберігання 1 share code"
+pricing_free_feature_2: "Базовий QR-код"
+pricing_free_feature_3: "Одна мова"
+pricing_premium_feature_1: "Необмежені share коди"
+pricing_premium_feature_2: "Інтеграція Apple Wallet"
+pricing_premium_feature_3: "Нагадування про закінчення"
+pricing_premium_feature_4: "32 мови"
+pricing_premium_feature_5: "Сімейний доступ"
+pricing_premium_feature_6: "Офлайн доступ"
+pricing_cta: "Почати"
+
+# CTA Section
+cta_title: "Готові захистити свій Share Code?"
+cta_subtitle: "Завантажте зараз і більше не хвилюйтеся про втрату share code"
+
+# Footer
+footer_description: "Безпечно зберігайте та керуйте своїми UK Home Office share кодами"
+footer_quick_links: "Швидкі посилання"
+footer_privacy: "Політика конфіденційності"
+footer_contact: "Контакти"
+footer_copyright: "© 2025 Easy Share Code. Усі права захищені."
+
+# Blog Section
+blog_title: "Останні статті"
+blog_read_more: "Читати далі"
+blog_view_all: "Усі статті"
+blog_no_posts: "Статей поки немає. Завітайте пізніше!"
+blog_category_all: "Усі"
+blog_category_guide: "Посібник UK Share Code"
+blog_category_visa: "Інформація про візи"
+blog_category_experience: "Досвід користувачів"
+blog_related: "Схожі статті"
+blog_back: "Назад до блогу"
+
+# 404 Page
+error_404_title: "Сторінку не знайдено"
+error_404_message: "Сторінка, яку ви шукаєте, не існує або була переміщена."
+error_404_home: "На головну"
+error_404_download: "Завантажити додаток"

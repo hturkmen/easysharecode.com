@@ -1,4 +1,4 @@
-{{/* Language Switcher - Dropdown menu with all 9 supported languages */}}
+{{/* Language Switcher - Dropdown menu with all 32 supported languages */}}
 {{/* Works in both desktop (header) and mobile (mobile menu) contexts */}}
 
 <div class="language-switcher relative" data-language-switcher>
@@ -25,7 +25,7 @@
 
   <!-- Dropdown Menu -->
   <div
-    class="language-dropdown hidden absolute right-0 mt-2 w-48 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50"
+    class="language-dropdown hidden absolute right-0 mt-2 w-48 max-h-80 overflow-y-auto rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50"
     role="menu"
     aria-orientation="vertical"
     aria-label="{{ i18n "nav_language" | default "Language selection" }}"
@@ -71,74 +71,79 @@
   </div>
 </div>
 
-<!-- Language Switcher JavaScript -->
+<!-- Language Switcher JavaScript (only runs once via guard) -->
 <script>
-  (function() {
-    // Initialize all language switcher instances on the page (desktop + mobile)
-    document.querySelectorAll('[data-language-switcher]').forEach(function(switcher) {
-      const toggle = switcher.querySelector('[data-language-toggle]');
-      const dropdown = switcher.querySelector('[data-language-dropdown]');
-      const chevron = switcher.querySelector('[data-language-chevron]');
+  if (!window.__langSwitcherInit) {
+    window.__langSwitcherInit = true;
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('[data-language-switcher]').forEach(function(switcher) {
+        var toggle = switcher.querySelector('[data-language-toggle]');
+        var dropdown = switcher.querySelector('[data-language-dropdown]');
+        var chevron = switcher.querySelector('[data-language-chevron]');
 
-      if (!toggle || !dropdown) return;
+        if (!toggle || !dropdown) return;
 
-      function openDropdown() {
-        dropdown.classList.remove('hidden');
-        toggle.setAttribute('aria-expanded', 'true');
-        if (chevron) chevron.classList.add('rotate-180');
-      }
-
-      function closeDropdown() {
-        dropdown.classList.add('hidden');
-        toggle.setAttribute('aria-expanded', 'false');
-        if (chevron) chevron.classList.remove('rotate-180');
-      }
-
-      function toggleDropdown() {
-        const isOpen = toggle.getAttribute('aria-expanded') === 'true';
-        if (isOpen) {
-          closeDropdown();
-        } else {
-          openDropdown();
+        function openDropdown() {
+          dropdown.classList.remove('hidden');
+          toggle.setAttribute('aria-expanded', 'true');
+          if (chevron) chevron.classList.add('rotate-180');
         }
-      }
 
-      // Toggle on button click
-      toggle.addEventListener('click', function(e) {
-        e.stopPropagation();
-        toggleDropdown();
-      });
-
-      // Close on outside click
-      document.addEventListener('click', function(e) {
-        if (!switcher.contains(e.target)) {
-          closeDropdown();
+        function closeDropdown() {
+          dropdown.classList.add('hidden');
+          toggle.setAttribute('aria-expanded', 'false');
+          if (chevron) chevron.classList.remove('rotate-180');
         }
-      });
 
-      // Close on Escape key
-      switcher.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-          closeDropdown();
-          toggle.focus();
-        }
-      });
-
-      // Keyboard navigation within dropdown
-      dropdown.addEventListener('keydown', function(e) {
-        const items = dropdown.querySelectorAll('[role="menuitem"]');
-        const currentIndex = Array.from(items).indexOf(document.activeElement);
-
-        if (e.key === 'ArrowDown') {
+        toggle.addEventListener('click', function(e) {
           e.preventDefault();
-          const nextIndex = (currentIndex + 1) % items.length;
-          items[nextIndex].focus();
-        } else if (e.key === 'ArrowUp') {
-          e.preventDefault();
-          const prevIndex = (currentIndex - 1 + items.length) % items.length;
-          items[prevIndex].focus();
-        }
+          e.stopPropagation();
+          var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+          if (isOpen) {
+            closeDropdown();
+          } else {
+            // Close all other dropdowns first
+            document.querySelectorAll('[data-language-dropdown]').forEach(function(d) {
+              d.classList.add('hidden');
+            });
+            document.querySelectorAll('[data-language-toggle]').forEach(function(t) {
+              t.setAttribute('aria-expanded', 'false');
+            });
+            openDropdown();
+          }
+        });
+
+        // Close on outside click
+        document.addEventListener('click', function(e) {
+          if (!switcher.contains(e.target)) {
+            closeDropdown();
+          }
+        });
+
+        // Close on Escape key
+        switcher.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            closeDropdown();
+            toggle.focus();
+          }
+        });
+
+        // Keyboard navigation within dropdown
+        dropdown.addEventListener('keydown', function(e) {
+          var items = dropdown.querySelectorAll('[role="menuitem"]');
+          var currentIndex = Array.from(items).indexOf(document.activeElement);
+
+          if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            var nextIndex = (currentIndex + 1) % items.length;
+            items[nextIndex].focus();
+          } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            var prevIndex = (currentIndex - 1 + items.length) % items.length;
+            items[prevIndex].focus();
+          }
+        });
       });
     });
-  })();
+  }
 </script>

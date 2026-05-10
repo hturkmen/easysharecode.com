@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "الرئيسية"
+nav_features: "المميزات"
+nav_blog: "المدونة"
+nav_download: "تحميل"
+nav_language: "تغيير اللغة"
+skip_to_content: "انتقل إلى المحتوى الرئيسي"
+
+# Hero Section
+hero_title: "رمز المشاركة UK الخاص بك، جاهز دائماً"
+hero_subtitle: "احفظ وأدر وشارك رموز Home Office الخاصة بك بأمان"
+hero_fomo: "هل رمز المشاركة جاهز؟ الوصول إليه في ثوانٍ عند الطوارئ."
+hero_cta: "حمّل من App Store"
+
+# FOMO Section
+fomo_warning_title: "رمز المشاركة قد ينتهي!"
+fomo_warning_text: "رموز المشاركة لها 3 فترات صلاحية مختلفة. لا تُفاجأ."
+fomo_question: "لا تجد رمز المشاركة في حالة طوارئ؟"
+fomo_scenarios_title: "متى تحتاج رمز المشاركة"
+fomo_scenario_job: "طلبات العمل"
+fomo_scenario_rent: "عقود الإيجار"
+fomo_scenario_official: "الإجراءات الرسمية"
+fomo_scenario_travel: "الدخول والخروج"
+fomo_family_title: "تتبع رموز المشاركة لعائلتك"
+fomo_family_text: "احتفظ برموز جميع أفراد العائلة منظمة في مكان واحد"
+fomo_validity_title: "3 فترات صلاحية للتتبع"
+fomo_validity_30: "30 يوماً"
+fomo_validity_60: "60 يوماً"
+fomo_validity_90: "90 يوماً"
+fomo_validity_desc: "لكل رمز مشاركة تاريخ انتهاء مختلف. تابعها جميعاً."
+
+# Features Section
+features_title: "كل ما تحتاجه"
+feature_multi_store: "رموز مشاركة متعددة"
+feature_multi_store_desc: "احفظ رموز مشاركة غير محدودة لك ولعائلتك"
+feature_qr: "عرض رمز QR"
+feature_qr_desc: "اعرض رمز المشاركة كـ QR للتحقق السريع"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "أضف رمز المشاركة إلى Apple Wallet للوصول الفوري"
+feature_reminder: "تذكيرات انتهاء الصلاحية"
+feature_reminder_desc: "لا تفوّت أبداً تاريخ انتهاء رمز المشاركة"
+feature_offline: "الوصول بدون إنترنت"
+feature_offline_desc: "الوصول لرموزك في أي وقت، حتى بدون إنترنت"
+feature_languages: "32 لغة"
+feature_languages_desc: "استخدم التطبيق بلغتك المفضلة"
+
+# Pricing Section
+pricing_title: "اختر خطتك"
+pricing_free: "مجاني"
+pricing_premium: "بريميوم"
+pricing_free_price: "£0"
+pricing_premium_price: "£2.99/سنة"
+pricing_recommended: "موصى به"
+pricing_free_feature_1: "حفظ رمز مشاركة واحد"
+pricing_free_feature_2: "عرض QR أساسي"
+pricing_free_feature_3: "لغة واحدة"
+pricing_premium_feature_1: "رموز مشاركة غير محدودة"
+pricing_premium_feature_2: "تكامل Apple Wallet"
+pricing_premium_feature_3: "تذكيرات انتهاء الصلاحية"
+pricing_premium_feature_4: "32 لغة"
+pricing_premium_feature_5: "مشاركة عائلية"
+pricing_premium_feature_6: "وصول بدون إنترنت"
+pricing_cta: "ابدأ الآن"
+
+# CTA Section
+cta_title: "مستعد لتأمين رمز المشاركة؟"
+cta_subtitle: "حمّل الآن ولا تقلق أبداً بشأن فقدان رمز المشاركة"
+
+# Footer
+footer_description: "احفظ وأدر رموز UK Home Office بأمان"
+footer_quick_links: "روابط سريعة"
+footer_privacy: "سياسة الخصوصية"
+footer_contact: "اتصل بنا"
+footer_copyright: "© 2025 Easy Share Code. جميع الحقوق محفوظة."
+
+# Blog Section
+blog_title: "أحدث المقالات"
+blog_read_more: "اقرأ المزيد"
+blog_view_all: "عرض جميع المقالات"
+blog_no_posts: "لا توجد مقالات بعد. تحقق قريباً!"
+blog_category_all: "الكل"
+blog_category_guide: "دليل UK Share Code"
+blog_category_visa: "معلومات التأشيرة"
+blog_category_experience: "تجارب المستخدمين"
+blog_related: "مقالات ذات صلة"
+blog_back: "العودة للمدونة"
+
+# 404 Page
+error_404_title: "الصفحة غير موجودة"
+error_404_message: "الصفحة التي تبحث عنها غير موجودة أو تم نقلها."
+error_404_home: "الذهاب للصفحة الرئيسية"
+error_404_download: "تحميل التطبيق"

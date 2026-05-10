@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Home"
+nav_features: "Functies"
+nav_blog: "Blog"
+nav_download: "Download"
+nav_language: "Taal wijzigen"
+skip_to_content: "Ga naar hoofdinhoud"
+
+# Hero Section
+hero_title: "Uw UK Share Code, altijd klaar"
+hero_subtitle: "Bewaar, beheer en deel uw Home Office share codes veilig"
+hero_fomo: "Is uw share code klaar? Toegang in seconden bij noodgevallen."
+hero_cta: "Download uit de App Store"
+
+# FOMO Section
+fomo_warning_title: "Uw Share Code kan verlopen!"
+fomo_warning_text: "Share codes hebben 3 verschillende geldigheidsperioden. Laat u niet verrassen."
+fomo_question: "Kunt u uw share code niet vinden in een noodgeval?"
+fomo_scenarios_title: "Wanneer u uw Share Code nodig heeft"
+fomo_scenario_job: "Sollicitaties"
+fomo_scenario_rent: "Huurovereenkomsten"
+fomo_scenario_official: "Officiële procedures"
+fomo_scenario_travel: "In- en uitreis"
+fomo_family_title: "Volg de Share Codes van uw gezin"
+fomo_family_text: "Houd alle share codes van gezinsleden georganiseerd op één plek"
+fomo_validity_title: "3 geldigheidsperioden om te volgen"
+fomo_validity_30: "30 dagen"
+fomo_validity_60: "60 dagen"
+fomo_validity_90: "90 dagen"
+fomo_validity_desc: "Elke share code heeft een andere vervaldatum. Houd ze allemaal bij."
+
+# Features Section
+features_title: "Alles wat u nodig heeft"
+feature_multi_store: "Meerdere Share Codes"
+feature_multi_store_desc: "Bewaar onbeperkt share codes voor uzelf en uw gezin"
+feature_qr: "QR-code weergave"
+feature_qr_desc: "Toon uw share code als QR voor snelle verificatie"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Voeg uw share code toe aan Apple Wallet voor directe toegang"
+feature_reminder: "Vervalherinneringen"
+feature_reminder_desc: "Mis nooit een vervaldatum van uw share code"
+feature_offline: "Offline toegang"
+feature_offline_desc: "Toegang tot uw codes op elk moment, zelfs zonder internet"
+feature_languages: "32 talen"
+feature_languages_desc: "Gebruik de app in uw voorkeurstaal"
+
+# Pricing Section
+pricing_title: "Kies uw plan"
+pricing_free: "Gratis"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/jaar"
+pricing_recommended: "Aanbevolen"
+pricing_free_feature_1: "1 share code opslaan"
+pricing_free_feature_2: "Basis QR-code weergave"
+pricing_free_feature_3: "Eén taal"
+pricing_premium_feature_1: "Onbeperkte share codes"
+pricing_premium_feature_2: "Apple Wallet integratie"
+pricing_premium_feature_3: "Vervalherinneringen"
+pricing_premium_feature_4: "32 talen"
+pricing_premium_feature_5: "Gezinsdeling"
+pricing_premium_feature_6: "Offline toegang"
+pricing_cta: "Aan de slag"
+
+# CTA Section
+cta_title: "Klaar om uw Share Code te beveiligen?"
+cta_subtitle: "Download nu en maak u nooit meer zorgen over het kwijtraken van uw share code"
+
+# Footer
+footer_description: "Bewaar en beheer uw UK Home Office share codes veilig"
+footer_quick_links: "Snelle links"
+footer_privacy: "Privacybeleid"
+footer_contact: "Contact"
+footer_copyright: "© 2025 Easy Share Code. Alle rechten voorbehouden."
+
+# Blog Section
+blog_title: "Laatste artikelen"
+blog_read_more: "Lees meer"
+blog_view_all: "Bekijk alle artikelen"
+blog_no_posts: "Nog geen artikelen. Kom snel terug!"
+blog_category_all: "Alles"
+blog_category_guide: "UK Share Code gids"
+blog_category_visa: "Visuminformatie"
+blog_category_experience: "Gebruikerservaringen"
+blog_related: "Gerelateerde artikelen"
+blog_back: "Terug naar blog"
+
+# 404 Page
+error_404_title: "Pagina niet gevonden"
+error_404_message: "De pagina die u zoekt bestaat niet of is verplaatst."
+error_404_home: "Ga naar de homepagina"
+error_404_download: "Download de app"

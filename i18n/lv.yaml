@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Sākums"
+nav_features: "Funkcijas"
+nav_blog: "Emuārs"
+nav_download: "Lejupielādēt"
+nav_language: "Mainīt valodu"
+skip_to_content: "Pāriet uz galveno saturu"
+
+# Hero Section
+hero_title: "Jūsu UK Share Code, vienmēr gatavs"
+hero_subtitle: "Droši glabājiet, pārvaldiet un kopīgojiet savus Home Office share kodus"
+hero_fomo: "Vai jūsu share code ir gatavs? Piekļuve sekundēs ārkārtas situācijā."
+hero_cta: "Lejupielādēt no App Store"
+
+# FOMO Section
+fomo_warning_title: "Jūsu Share Code var beigties!"
+fomo_warning_text: "Share kodiem ir 3 dažādi derīguma termiņi. Neļaujiet sevi pārsteigt."
+fomo_question: "Nevarat atrast share code ārkārtas situācijā?"
+fomo_scenarios_title: "Kad nepieciešams Share Code"
+fomo_scenario_job: "Darba pieteikumi"
+fomo_scenario_rent: "Īres līgumi"
+fomo_scenario_official: "Oficiālas procedūras"
+fomo_scenario_travel: "Iebraukšana un izbraukšana"
+fomo_family_title: "Sekojiet ģimenes Share kodiem"
+fomo_family_text: "Turiet visu ģimenes locekļu share kodus organizētus vienuviet"
+fomo_validity_title: "3 derīguma termiņi sekošanai"
+fomo_validity_30: "30 dienas"
+fomo_validity_60: "60 dienas"
+fomo_validity_90: "90 dienas"
+fomo_validity_desc: "Katram share kodam ir atšķirīgs derīguma termiņš. Sekojiet visiem."
+
+# Features Section
+features_title: "Viss, kas jums nepieciešams"
+feature_multi_store: "Vairāki Share kodi"
+feature_multi_store_desc: "Glabājiet neierobežotu skaitu share kodu sev un ģimenei"
+feature_qr: "QR koda attēlojums"
+feature_qr_desc: "Parādiet share code kā QR ātrai pārbaudei"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Pievienojiet share code Apple Wallet tūlītējai piekļuvei"
+feature_reminder: "Derīguma atgādinājumi"
+feature_reminder_desc: "Nekad nepalaidiet garām share code derīguma datumu"
+feature_offline: "Bezsaistes piekļuve"
+feature_offline_desc: "Piekļūstiet kodiem jebkurā laikā, pat bez interneta"
+feature_languages: "32 valodas"
+feature_languages_desc: "Izmantojiet lietotni vēlamajā valodā"
+
+# Pricing Section
+pricing_title: "Izvēlieties plānu"
+pricing_free: "Bezmaksas"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/gadā"
+pricing_recommended: "Ieteicams"
+pricing_free_feature_1: "1 share code glabāšana"
+pricing_free_feature_2: "Pamata QR kods"
+pricing_free_feature_3: "Viena valoda"
+pricing_premium_feature_1: "Neierobežoti share kodi"
+pricing_premium_feature_2: "Apple Wallet integrācija"
+pricing_premium_feature_3: "Derīguma atgādinājumi"
+pricing_premium_feature_4: "32 valodas"
+pricing_premium_feature_5: "Ģimenes kopīgošana"
+pricing_premium_feature_6: "Bezsaistes piekļuve"
+pricing_cta: "Sākt"
+
+# CTA Section
+cta_title: "Gatavi aizsargāt savu Share Code?"
+cta_subtitle: "Lejupielādējiet tagad un nekad neuztraucieties par share code zaudēšanu"
+
+# Footer
+footer_description: "Droši glabājiet un pārvaldiet savus UK Home Office share kodus"
+footer_quick_links: "Ātrās saites"
+footer_privacy: "Privātuma politika"
+footer_contact: "Kontakti"
+footer_copyright: "© 2025 Easy Share Code. Visas tiesības aizsargātas."
+
+# Blog Section
+blog_title: "Jaunākie raksti"
+blog_read_more: "Lasīt vairāk"
+blog_view_all: "Skatīt visus rakstus"
+blog_no_posts: "Rakstu vēl nav. Pārbaudiet drīzumā!"
+blog_category_all: "Visi"
+blog_category_guide: "UK Share Code ceļvedis"
+blog_category_visa: "Vīzu informācija"
+blog_category_experience: "Lietotāju pieredze"
+blog_related: "Saistītie raksti"
+blog_back: "Atpakaļ uz emuāru"
+
+# 404 Page
+error_404_title: "Lapa nav atrasta"
+error_404_message: "Lapa, kuru meklējat, neeksistē vai ir pārvietota."
+error_404_home: "Doties uz sākumlapu"
+error_404_download: "Lejupielādēt lietotni"

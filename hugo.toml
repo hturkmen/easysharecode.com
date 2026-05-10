@@ -40,6 +40,98 @@ defaultContentLanguageInSubdir = false
     languageName = "Italiano"
     weight = 9
     contentDir = "content/it"
+  [languages.nl]
+    languageName = "Nederlands"
+    weight = 10
+    contentDir = "content/nl"
+  [languages.ru]
+    languageName = "Русский"
+    weight = 11
+    contentDir = "content/ru"
+  [languages.uk]
+    languageName = "Українська"
+    weight = 12
+    contentDir = "content/uk"
+  [languages.ar]
+    languageName = "العربية"
+    weight = 13
+    contentDir = "content/ar"
+  [languages.hi]
+    languageName = "हिन्दी"
+    weight = 14
+    contentDir = "content/hi"
+  [languages.bn]
+    languageName = "বাংলা"
+    weight = 15
+    contentDir = "content/bn"
+  [languages.ur]
+    languageName = "اردو"
+    weight = 16
+    contentDir = "content/ur"
+  [languages.bg]
+    languageName = "Български"
+    weight = 17
+    contentDir = "content/bg"
+  [languages.hr]
+    languageName = "Hrvatski"
+    weight = 18
+    contentDir = "content/hr"
+  [languages.cs]
+    languageName = "Čeština"
+    weight = 19
+    contentDir = "content/cs"
+  [languages.sk]
+    languageName = "Slovenčina"
+    weight = 20
+    contentDir = "content/sk"
+  [languages.hu]
+    languageName = "Magyar"
+    weight = 21
+    contentDir = "content/hu"
+  [languages.el]
+    languageName = "Ελληνικά"
+    weight = 22
+    contentDir = "content/el"
+  [languages.sv]
+    languageName = "Svenska"
+    weight = 23
+    contentDir = "content/sv"
+  [languages.no]
+    languageName = "Norsk"
+    weight = 24
+    contentDir = "content/no"
+  [languages.da]
+    languageName = "Dansk"
+    weight = 25
+    contentDir = "content/da"
+  [languages.fi]
+    languageName = "Suomi"
+    weight = 26
+    contentDir = "content/fi"
+  [languages.lt]
+    languageName = "Lietuvių"
+    weight = 27
+    contentDir = "content/lt"
+  [languages.lv]
+    languageName = "Latviešu"
+    weight = 28
+    contentDir = "content/lv"
+  [languages.sr]
+    languageName = "Српски"
+    weight = 29
+    contentDir = "content/sr"
+  [languages.zh]
+    languageName = "中文"
+    weight = 30
+    contentDir = "content/zh"
+  [languages.ja]
+    languageName = "日本語"
+    weight = 31
+    contentDir = "content/ja"
+  [languages.ko]
+    languageName = "한국어"
+    weight = 32
+    contentDir = "content/ko"
 
 [params]
   appStoreURL = "https://apps.apple.com/gb/app/easy-share-code-uk/id6744980944"
