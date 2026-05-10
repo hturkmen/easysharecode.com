@@ -7,8 +7,8 @@ nav_language: "Change language"
 skip_to_content: "Skip to main content"
 
 # Hero Section
-hero_title: "Your UK Share Code, Always Ready"
-hero_subtitle: "Store, manage, and share your Home Office share codes securely"
+hero_title: "Your UK eVisa Share Code, Always Ready"
+hero_subtitle: "Store your eVisa share code in Apple Wallet. Prove your immigration status to employers, landlords & at the border — instantly, even offline."
 hero_fomo: "Is your share code ready? Access it in seconds during an emergency."
 hero_cta: "Download on the App Store"
 
@@ -36,7 +36,7 @@ feature_multi_store_desc: "Store unlimited share codes for yourself and family"
 feature_qr: "QR Code Display"
 feature_qr_desc: "Show your share code as QR for quick verification"
 feature_wallet: "Apple Wallet"
-feature_wallet_desc: "Add your share code to Apple Wallet for instant access"
+feature_wallet_desc: "Add your eVisa share code to Apple Wallet for instant offline access"
 feature_reminder: "Expiry Reminders"
 feature_reminder_desc: "Never miss a share code expiration date"
 feature_offline: "Offline Access"
@@ -63,11 +63,11 @@ pricing_premium_feature_6: "Offline access"
 pricing_cta: "Get Started"
 
 # CTA Section
-cta_title: "Ready to Secure Your Share Code?"
-cta_subtitle: "Download now and never worry about losing your share code again"
+cta_title: "Ready to Secure Your eVisa Share Code?"
+cta_subtitle: "Download now and keep your digital immigration status proof always at hand — in Apple Wallet"
 
 # Footer
-footer_description: "Securely store and manage your UK Home Office share codes"
+footer_description: "Store your UK eVisa share code in Apple Wallet. Prove immigration status for right to work, right to rent & travel."
 footer_quick_links: "Quick Links"
 footer_privacy: "Privacy Policy"
 footer_contact: "Contact"

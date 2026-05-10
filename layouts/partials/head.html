@@ -12,7 +12,7 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
 <!-- Keywords -->
-{{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+{{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ else }}{{ if .IsHome }}<meta name="keywords" content="uk share code, evisa share code, share code wallet, share code app, right to rent share code, right to work share code, home office share code, uk evisa status, prove immigration status uk, evisa wallet, digital immigration status, evisa uk app, store evisa details, evisa share code app, uk evisa holder app, evisa proof of status, share code expired, share code apple wallet">{{ end }}{{ end }}
 
 <!-- Open Graph Meta Tags -->
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
@@ -50,9 +50,11 @@
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "Easy Share Code UK",
+  "alternateName": "eVisa Share Code App",
   "operatingSystem": "iOS",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Store and manage your UK Home Office share codes securely. Add to Apple Wallet for instant offline access.",
+  "description": "Store and manage your UK eVisa share code securely. Add to Apple Wallet for instant offline access. Prove your digital immigration status to employers and landlords. Expiry reminders, QR code display, right to work and right to rent verification.",
+  "keywords": "uk share code, evisa share code, share code wallet, digital immigration status, right to rent, right to work, evisa uk app",
   "offers": {
     "@type": "Offer",
     "price": "0",
