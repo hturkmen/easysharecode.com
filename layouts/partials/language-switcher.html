@@ -1,4 +1,4 @@
-{{/* Language Switcher - Dropdown menu with all 9 supported languages */}}
+{{/* Language Switcher - Dropdown menu with all 32 supported languages */}}
 {{/* Works in both desktop (header) and mobile (mobile menu) contexts */}}
 
 <div class="language-switcher relative" data-language-switcher>
@@ -25,7 +25,7 @@
 
   <!-- Dropdown Menu -->
   <div
-    class="language-dropdown hidden absolute right-0 mt-2 w-48 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50"
+    class="language-dropdown hidden absolute right-0 mt-2 w-48 max-h-80 overflow-y-auto rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 py-1 z-50"
     role="menu"
     aria-orientation="vertical"
     aria-label="{{ i18n "nav_language" | default "Language selection" }}"
