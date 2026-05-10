@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Αρχική"
+nav_features: "Χαρακτηριστικά"
+nav_blog: "Ιστολόγιο"
+nav_download: "Λήψη"
+nav_language: "Αλλαγή γλώσσας"
+skip_to_content: "Μετάβαση στο κύριο περιεχόμενο"
+
+# Hero Section
+hero_title: "Το UK Share Code σας, πάντα έτοιμο"
+hero_subtitle: "Αποθηκεύστε, διαχειριστείτε και μοιραστείτε τα Home Office share codes σας με ασφάλεια"
+hero_fomo: "Είναι το share code σας έτοιμο; Πρόσβαση σε δευτερόλεπτα σε έκτακτη ανάγκη."
+hero_cta: "Λήψη από το App Store"
+
+# FOMO Section
+fomo_warning_title: "Το Share Code σας μπορεί να λήξει!"
+fomo_warning_text: "Τα share codes έχουν 3 διαφορετικές περιόδους ισχύος. Μην αιφνιδιαστείτε."
+fomo_question: "Δεν μπορείτε να βρείτε το share code σε έκτακτη ανάγκη;"
+fomo_scenarios_title: "Πότε χρειάζεστε το Share Code"
+fomo_scenario_job: "Αιτήσεις εργασίας"
+fomo_scenario_rent: "Συμβάσεις ενοικίασης"
+fomo_scenario_official: "Επίσημες διαδικασίες"
+fomo_scenario_travel: "Είσοδος & Έξοδος"
+fomo_family_title: "Παρακολουθήστε τα Share Codes της οικογένειας"
+fomo_family_text: "Κρατήστε τα codes όλων των μελών της οικογένειας οργανωμένα σε ένα μέρος"
+fomo_validity_title: "3 περίοδοι ισχύος για παρακολούθηση"
+fomo_validity_30: "30 ημέρες"
+fomo_validity_60: "60 ημέρες"
+fomo_validity_90: "90 ημέρες"
+fomo_validity_desc: "Κάθε share code έχει διαφορετική λήξη. Παρακολουθήστε τα όλα."
+
+# Features Section
+features_title: "Όλα όσα χρειάζεστε"
+feature_multi_store: "Πολλαπλά Share Codes"
+feature_multi_store_desc: "Αποθηκεύστε απεριόριστα share codes για εσάς και την οικογένεια"
+feature_qr: "Εμφάνιση QR Code"
+feature_qr_desc: "Δείξτε το share code ως QR για γρήγορη επαλήθευση"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Προσθέστε το share code στο Apple Wallet για άμεση πρόσβαση"
+feature_reminder: "Υπενθυμίσεις λήξης"
+feature_reminder_desc: "Μην χάσετε ποτέ ημερομηνία λήξης share code"
+feature_offline: "Πρόσβαση εκτός σύνδεσης"
+feature_offline_desc: "Πρόσβαση στα codes σας ανά πάσα στιγμή, ακόμα και χωρίς internet"
+feature_languages: "32 γλώσσες"
+feature_languages_desc: "Χρησιμοποιήστε την εφαρμογή στη γλώσσα της προτίμησής σας"
+
+# Pricing Section
+pricing_title: "Επιλέξτε πλάνο"
+pricing_free: "Δωρεάν"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/έτος"
+pricing_recommended: "Προτεινόμενο"
+pricing_free_feature_1: "Αποθήκευση 1 share code"
+pricing_free_feature_2: "Βασική εμφάνιση QR"
+pricing_free_feature_3: "Μία γλώσσα"
+pricing_premium_feature_1: "Απεριόριστα share codes"
+pricing_premium_feature_2: "Ενσωμάτωση Apple Wallet"
+pricing_premium_feature_3: "Υπενθυμίσεις λήξης"
+pricing_premium_feature_4: "32 γλώσσες"
+pricing_premium_feature_5: "Οικογενειακή κοινοποίηση"
+pricing_premium_feature_6: "Πρόσβαση εκτός σύνδεσης"
+pricing_cta: "Ξεκινήστε"
+
+# CTA Section
+cta_title: "Έτοιμοι να ασφαλίσετε το Share Code σας;"
+cta_subtitle: "Κατεβάστε τώρα και μην ανησυχείτε ξανά για απώλεια share code"
+
+# Footer
+footer_description: "Αποθηκεύστε και διαχειριστείτε με ασφάλεια τα UK Home Office share codes σας"
+footer_quick_links: "Γρήγοροι σύνδεσμοι"
+footer_privacy: "Πολιτική απορρήτου"
+footer_contact: "Επικοινωνία"
+footer_copyright: "© 2025 Easy Share Code. Με επιφύλαξη παντός δικαιώματος."
+
+# Blog Section
+blog_title: "Τελευταία άρθρα"
+blog_read_more: "Διαβάστε περισσότερα"
+blog_view_all: "Δείτε όλα τα άρθρα"
+blog_no_posts: "Δεν υπάρχουν ακόμα άρθρα. Ελέγξτε σύντομα!"
+blog_category_all: "Όλα"
+blog_category_guide: "Οδηγός UK Share Code"
+blog_category_visa: "Πληροφορίες βίζας"
+blog_category_experience: "Εμπειρίες χρηστών"
+blog_related: "Σχετικά άρθρα"
+blog_back: "Πίσω στο ιστολόγιο"
+
+# 404 Page
+error_404_title: "Η σελίδα δεν βρέθηκε"
+error_404_message: "Η σελίδα που αναζητάτε δεν υπάρχει ή έχει μετακινηθεί."
+error_404_home: "Μετάβαση στην αρχική"
+error_404_download: "Λήψη εφαρμογής"

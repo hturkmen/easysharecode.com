@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Hem"
+nav_features: "Funktioner"
+nav_blog: "Blogg"
+nav_download: "Ladda ner"
+nav_language: "Byt språk"
+skip_to_content: "Hoppa till huvudinnehåll"
+
+# Hero Section
+hero_title: "Din UK Share Code, alltid redo"
+hero_subtitle: "Lagra, hantera och dela dina Home Office share-koder säkert"
+hero_fomo: "Är din share code redo? Åtkomst på sekunder i en nödsituation."
+hero_cta: "Ladda ner från App Store"
+
+# FOMO Section
+fomo_warning_title: "Din Share Code kan löpa ut!"
+fomo_warning_text: "Share-koder har 3 olika giltighetsperioder. Bli inte tagen på sängen."
+fomo_question: "Kan du inte hitta din share code i en nödsituation?"
+fomo_scenarios_title: "När du behöver din Share Code"
+fomo_scenario_job: "Jobbansökningar"
+fomo_scenario_rent: "Hyresavtal"
+fomo_scenario_official: "Officiella ärenden"
+fomo_scenario_travel: "In- och utresa"
+fomo_family_title: "Följ familjens Share-koder"
+fomo_family_text: "Håll alla familjemedlemmars share-koder organiserade på ett ställe"
+fomo_validity_title: "3 giltighetsperioder att följa"
+fomo_validity_30: "30 dagar"
+fomo_validity_60: "60 dagar"
+fomo_validity_90: "90 dagar"
+fomo_validity_desc: "Varje share code har olika utgångsdatum. Håll koll på alla."
+
+# Features Section
+features_title: "Allt du behöver"
+feature_multi_store: "Flera Share-koder"
+feature_multi_store_desc: "Lagra obegränsat antal share-koder för dig och familjen"
+feature_qr: "QR-kod visning"
+feature_qr_desc: "Visa din share code som QR för snabb verifiering"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Lägg till din share code i Apple Wallet för omedelbar åtkomst"
+feature_reminder: "Påminnelser om utgång"
+feature_reminder_desc: "Missa aldrig ett utgångsdatum för share code"
+feature_offline: "Offline-åtkomst"
+feature_offline_desc: "Åtkomst till dina koder när som helst, även utan internet"
+feature_languages: "32 språk"
+feature_languages_desc: "Använd appen på ditt föredragna språk"
+
+# Pricing Section
+pricing_title: "Välj din plan"
+pricing_free: "Gratis"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/år"
+pricing_recommended: "Rekommenderad"
+pricing_free_feature_1: "Lagra 1 share code"
+pricing_free_feature_2: "Grundläggande QR-kod"
+pricing_free_feature_3: "Ett språk"
+pricing_premium_feature_1: "Obegränsade share-koder"
+pricing_premium_feature_2: "Apple Wallet-integration"
+pricing_premium_feature_3: "Påminnelser om utgång"
+pricing_premium_feature_4: "32 språk"
+pricing_premium_feature_5: "Familjedelning"
+pricing_premium_feature_6: "Offline-åtkomst"
+pricing_cta: "Kom igång"
+
+# CTA Section
+cta_title: "Redo att säkra din Share Code?"
+cta_subtitle: "Ladda ner nu och oroa dig aldrig för att förlora din share code"
+
+# Footer
+footer_description: "Lagra och hantera dina UK Home Office share-koder säkert"
+footer_quick_links: "Snabblänkar"
+footer_privacy: "Integritetspolicy"
+footer_contact: "Kontakt"
+footer_copyright: "© 2025 Easy Share Code. Alla rättigheter förbehållna."
+
+# Blog Section
+blog_title: "Senaste artiklarna"
+blog_read_more: "Läs mer"
+blog_view_all: "Visa alla artiklar"
+blog_no_posts: "Inga artiklar ännu. Kom tillbaka snart!"
+blog_category_all: "Alla"
+blog_category_guide: "UK Share Code-guide"
+blog_category_visa: "Visuminformation"
+blog_category_experience: "Användarupplevelser"
+blog_related: "Relaterade artiklar"
+blog_back: "Tillbaka till bloggen"
+
+# 404 Page
+error_404_title: "Sidan hittades inte"
+error_404_message: "Sidan du letar efter finns inte eller har flyttats."
+error_404_home: "Gå till startsidan"
+error_404_download: "Ladda ner appen"

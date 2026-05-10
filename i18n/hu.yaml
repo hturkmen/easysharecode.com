@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Kezdőlap"
+nav_features: "Funkciók"
+nav_blog: "Blog"
+nav_download: "Letöltés"
+nav_language: "Nyelv váltása"
+skip_to_content: "Ugrás a fő tartalomra"
+
+# Hero Section
+hero_title: "Az Ön UK Share Code-ja, mindig kéznél"
+hero_subtitle: "Tárolja, kezelje és ossza meg Home Office share kódjait biztonságosan"
+hero_fomo: "Kéznél van a share code-ja? Másodpercek alatt elérheti vészhelyzetben."
+hero_cta: "Letöltés az App Store-ból"
+
+# FOMO Section
+fomo_warning_title: "A Share Code lejárhat!"
+fomo_warning_text: "A share kódoknak 3 különböző érvényességi ideje van. Ne érje meglepetés."
+fomo_question: "Nem találja a share code-ját vészhelyzetben?"
+fomo_scenarios_title: "Mikor van szüksége Share Code-ra"
+fomo_scenario_job: "Állásjelentkezés"
+fomo_scenario_rent: "Bérleti szerződések"
+fomo_scenario_official: "Hivatalos eljárások"
+fomo_scenario_travel: "Be- és kilépés"
+fomo_family_title: "Kövesse nyomon a család Share kódjait"
+fomo_family_text: "Tartsa az összes családtag share kódjait egy helyen rendezetten"
+fomo_validity_title: "3 érvényességi idő nyomon követése"
+fomo_validity_30: "30 nap"
+fomo_validity_60: "60 nap"
+fomo_validity_90: "90 nap"
+fomo_validity_desc: "Minden share code-nak más a lejárati ideje. Kövesse nyomon mindet."
+
+# Features Section
+features_title: "Minden, amire szüksége van"
+feature_multi_store: "Több Share Code"
+feature_multi_store_desc: "Korlátlan számú share code tárolása önnek és családjának"
+feature_qr: "QR kód megjelenítés"
+feature_qr_desc: "Mutassa meg share code-ját QR-ként a gyors ellenőrzéshez"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Adja hozzá share code-ját az Apple Wallet-hez az azonnali hozzáférésért"
+feature_reminder: "Lejárati emlékeztetők"
+feature_reminder_desc: "Soha ne mulassza el a share code lejárati dátumát"
+feature_offline: "Offline hozzáférés"
+feature_offline_desc: "Bármikor hozzáférhet kódjaihoz, internet nélkül is"
+feature_languages: "32 nyelv"
+feature_languages_desc: "Használja az alkalmazást az Ön által preferált nyelven"
+
+# Pricing Section
+pricing_title: "Válasszon csomagot"
+pricing_free: "Ingyenes"
+pricing_premium: "Prémium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/év"
+pricing_recommended: "Ajánlott"
+pricing_free_feature_1: "1 share code tárolása"
+pricing_free_feature_2: "Alap QR kód megjelenítés"
+pricing_free_feature_3: "Egy nyelv"
+pricing_premium_feature_1: "Korlátlan share kódok"
+pricing_premium_feature_2: "Apple Wallet integráció"
+pricing_premium_feature_3: "Lejárati emlékeztetők"
+pricing_premium_feature_4: "32 nyelv"
+pricing_premium_feature_5: "Családi megosztás"
+pricing_premium_feature_6: "Offline hozzáférés"
+pricing_cta: "Kezdés"
+
+# CTA Section
+cta_title: "Készen áll Share Code-ja biztosítására?"
+cta_subtitle: "Töltse le most, és soha ne aggódjon a share code elvesztése miatt"
+
+# Footer
+footer_description: "Biztonságosan tárolja és kezelje UK Home Office share kódjait"
+footer_quick_links: "Gyors linkek"
+footer_privacy: "Adatvédelmi irányelvek"
+footer_contact: "Kapcsolat"
+footer_copyright: "© 2025 Easy Share Code. Minden jog fenntartva."
+
+# Blog Section
+blog_title: "Legújabb cikkek"
+blog_read_more: "Tovább olvasom"
+blog_view_all: "Összes cikk megtekintése"
+blog_no_posts: "Még nincsenek cikkek. Nézzen vissza hamarosan!"
+blog_category_all: "Összes"
+blog_category_guide: "UK Share Code útmutató"
+blog_category_visa: "Vízum információk"
+blog_category_experience: "Felhasználói tapasztalatok"
+blog_related: "Kapcsolódó cikkek"
+blog_back: "Vissza a blogra"
+
+# 404 Page
+error_404_title: "Az oldal nem található"
+error_404_message: "A keresett oldal nem létezik vagy áthelyezték."
+error_404_home: "Ugrás a kezdőlapra"
+error_404_download: "Alkalmazás letöltése"

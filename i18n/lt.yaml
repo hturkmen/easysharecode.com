@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Pradžia"
+nav_features: "Funkcijos"
+nav_blog: "Tinklaraštis"
+nav_download: "Atsisiųsti"
+nav_language: "Keisti kalbą"
+skip_to_content: "Pereiti prie pagrindinio turinio"
+
+# Hero Section
+hero_title: "Jūsų UK Share Code, visada paruoštas"
+hero_subtitle: "Saugiai saugokite, tvarkykite ir dalinkitės savo Home Office share kodais"
+hero_fomo: "Ar jūsų share code paruoštas? Prieiga per sekundes avarinėje situacijoje."
+hero_cta: "Atsisiųsti iš App Store"
+
+# FOMO Section
+fomo_warning_title: "Jūsų Share Code gali baigtis!"
+fomo_warning_text: "Share kodai turi 3 skirtingus galiojimo laikotarpius. Nebūkite užklupti."
+fomo_question: "Negalite rasti share code avarinėje situacijoje?"
+fomo_scenarios_title: "Kada reikia Share Code"
+fomo_scenario_job: "Darbo paraiškos"
+fomo_scenario_rent: "Nuomos sutartys"
+fomo_scenario_official: "Oficialios procedūros"
+fomo_scenario_travel: "Įvažiavimas ir išvažiavimas"
+fomo_family_title: "Sekite šeimos Share kodus"
+fomo_family_text: "Laikykite visų šeimos narių share kodus organizuotus vienoje vietoje"
+fomo_validity_title: "3 galiojimo laikotarpiai sekimui"
+fomo_validity_30: "30 dienų"
+fomo_validity_60: "60 dienų"
+fomo_validity_90: "90 dienų"
+fomo_validity_desc: "Kiekvienas share code turi skirtingą galiojimo datą. Sekite visus."
+
+# Features Section
+features_title: "Viskas, ko jums reikia"
+feature_multi_store: "Keli Share kodai"
+feature_multi_store_desc: "Saugokite neribotą skaičių share kodų sau ir šeimai"
+feature_qr: "QR kodo rodymas"
+feature_qr_desc: "Rodykite share code kaip QR greitam patikrinimui"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Pridėkite share code į Apple Wallet momentinei prieigai"
+feature_reminder: "Galiojimo priminimai"
+feature_reminder_desc: "Niekada nepraleiskite share code galiojimo datos"
+feature_offline: "Prieiga neprisijungus"
+feature_offline_desc: "Pasiekite kodus bet kada, net be interneto"
+feature_languages: "32 kalbos"
+feature_languages_desc: "Naudokite programėlę pageidaujama kalba"
+
+# Pricing Section
+pricing_title: "Pasirinkite planą"
+pricing_free: "Nemokama"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/metai"
+pricing_recommended: "Rekomenduojama"
+pricing_free_feature_1: "1 share code saugojimas"
+pricing_free_feature_2: "Pagrindinis QR kodas"
+pricing_free_feature_3: "Viena kalba"
+pricing_premium_feature_1: "Neriboti share kodai"
+pricing_premium_feature_2: "Apple Wallet integracija"
+pricing_premium_feature_3: "Galiojimo priminimai"
+pricing_premium_feature_4: "32 kalbos"
+pricing_premium_feature_5: "Šeimos dalijimasis"
+pricing_premium_feature_6: "Prieiga neprisijungus"
+pricing_cta: "Pradėti"
+
+# CTA Section
+cta_title: "Pasiruošę apsaugoti savo Share Code?"
+cta_subtitle: "Atsisiųskite dabar ir niekada nesijaudinkite dėl share code praradimo"
+
+# Footer
+footer_description: "Saugiai saugokite ir tvarkykite savo UK Home Office share kodus"
+footer_quick_links: "Greitos nuorodos"
+footer_privacy: "Privatumo politika"
+footer_contact: "Kontaktai"
+footer_copyright: "© 2025 Easy Share Code. Visos teisės saugomos."
+
+# Blog Section
+blog_title: "Naujausi straipsniai"
+blog_read_more: "Skaityti daugiau"
+blog_view_all: "Žiūrėti visus straipsnius"
+blog_no_posts: "Straipsnių dar nėra. Patikrinkite netrukus!"
+blog_category_all: "Visi"
+blog_category_guide: "UK Share Code vadovas"
+blog_category_visa: "Vizų informacija"
+blog_category_experience: "Vartotojų patirtys"
+blog_related: "Susiję straipsniai"
+blog_back: "Grįžti į tinklaraštį"
+
+# 404 Page
+error_404_title: "Puslapis nerastas"
+error_404_message: "Puslapis, kurio ieškote, neegzistuoja arba buvo perkeltas."
+error_404_home: "Eiti į pagrindinį puslapį"
+error_404_download: "Atsisiųsti programėlę"

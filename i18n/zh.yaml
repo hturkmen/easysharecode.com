@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "首页"
+nav_features: "功能"
+nav_blog: "博客"
+nav_download: "下载"
+nav_language: "切换语言"
+skip_to_content: "跳转到主要内容"
+
+# Hero Section
+hero_title: "您的UK Share Code，随时就绪"
+hero_subtitle: "安全存储、管理和分享您的Home Office share code"
+hero_fomo: "您的share code准备好了吗？紧急情况下几秒内访问。"
+hero_cta: "从App Store下载"
+
+# FOMO Section
+fomo_warning_title: "您的Share Code可能会过期！"
+fomo_warning_text: "Share code有3种不同的有效期。不要措手不及。"
+fomo_question: "紧急情况下找不到share code？"
+fomo_scenarios_title: "何时需要Share Code"
+fomo_scenario_job: "求职申请"
+fomo_scenario_rent: "租房合同"
+fomo_scenario_official: "官方手续"
+fomo_scenario_travel: "出入境"
+fomo_family_title: "追踪家人的Share Code"
+fomo_family_text: "将所有家庭成员的share code集中管理"
+fomo_validity_title: "需追踪的3个有效期"
+fomo_validity_30: "30天"
+fomo_validity_60: "60天"
+fomo_validity_90: "90天"
+fomo_validity_desc: "每个share code的到期日不同。全部追踪。"
+
+# Features Section
+features_title: "您需要的一切"
+feature_multi_store: "多个Share Code"
+feature_multi_store_desc: "为您和家人存储无限数量的share code"
+feature_qr: "QR码显示"
+feature_qr_desc: "以QR码形式展示share code，快速验证"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "将share code添加到Apple Wallet，即时访问"
+feature_reminder: "到期提醒"
+feature_reminder_desc: "永不错过share code到期日"
+feature_offline: "离线访问"
+feature_offline_desc: "随时访问您的代码，即使没有网络"
+feature_languages: "32种语言"
+feature_languages_desc: "使用您偏好的语言使用应用"
+
+# Pricing Section
+pricing_title: "选择您的方案"
+pricing_free: "免费"
+pricing_premium: "高级版"
+pricing_free_price: "£0"
+pricing_premium_price: "£2.99/年"
+pricing_recommended: "推荐"
+pricing_free_feature_1: "存储1个share code"
+pricing_free_feature_2: "基础QR码显示"
+pricing_free_feature_3: "单一语言"
+pricing_premium_feature_1: "无限share code"
+pricing_premium_feature_2: "Apple Wallet集成"
+pricing_premium_feature_3: "到期提醒"
+pricing_premium_feature_4: "32种语言"
+pricing_premium_feature_5: "家庭共享"
+pricing_premium_feature_6: "离线访问"
+pricing_cta: "开始使用"
+
+# CTA Section
+cta_title: "准备好保护您的Share Code了吗？"
+cta_subtitle: "立即下载，再也不用担心丢失share code"
+
+# Footer
+footer_description: "安全存储和管理您的UK Home Office share code"
+footer_quick_links: "快速链接"
+footer_privacy: "隐私政策"
+footer_contact: "联系我们"
+footer_copyright: "© 2025 Easy Share Code. 保留所有权利。"
+
+# Blog Section
+blog_title: "最新文章"
+blog_read_more: "阅读更多"
+blog_view_all: "查看所有文章"
+blog_no_posts: "暂无文章。请稍后查看！"
+blog_category_all: "全部"
+blog_category_guide: "UK Share Code指南"
+blog_category_visa: "签证信息"
+blog_category_experience: "用户体验"
+blog_related: "相关文章"
+blog_back: "返回博客"
+
+# 404 Page
+error_404_title: "页面未找到"
+error_404_message: "您查找的页面不存在或已被移动。"
+error_404_home: "前往首页"
+error_404_download: "下载应用"

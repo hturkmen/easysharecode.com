@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Domů"
+nav_features: "Funkce"
+nav_blog: "Blog"
+nav_download: "Stáhnout"
+nav_language: "Změnit jazyk"
+skip_to_content: "Přejít na hlavní obsah"
+
+# Hero Section
+hero_title: "Váš UK Share Code, vždy připraven"
+hero_subtitle: "Bezpečně ukládejte, spravujte a sdílejte své Home Office share kódy"
+hero_fomo: "Je váš share code připraven? Přístup během sekund v nouzové situaci."
+hero_cta: "Stáhnout z App Store"
+
+# FOMO Section
+fomo_warning_title: "Váš Share Code může vypršet!"
+fomo_warning_text: "Share kódy mají 3 různé doby platnosti. Nenechte se zaskočit."
+fomo_question: "Nemůžete najít share code v nouzové situaci?"
+fomo_scenarios_title: "Kdy potřebujete Share Code"
+fomo_scenario_job: "Žádosti o práci"
+fomo_scenario_rent: "Nájemní smlouvy"
+fomo_scenario_official: "Úřední postupy"
+fomo_scenario_travel: "Vstup a výstup"
+fomo_family_title: "Sledujte Share kódy rodiny"
+fomo_family_text: "Mějte kódy všech členů rodiny organizované na jednom místě"
+fomo_validity_title: "3 doby platnosti ke sledování"
+fomo_validity_30: "30 dní"
+fomo_validity_60: "60 dní"
+fomo_validity_90: "90 dní"
+fomo_validity_desc: "Každý share code má jiné datum expirace. Sledujte je všechny."
+
+# Features Section
+features_title: "Vše, co potřebujete"
+feature_multi_store: "Více Share kódů"
+feature_multi_store_desc: "Ukládejte neomezený počet share kódů pro sebe a rodinu"
+feature_qr: "QR kód zobrazení"
+feature_qr_desc: "Zobrazte share code jako QR pro rychlé ověření"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Přidejte share code do Apple Wallet pro okamžitý přístup"
+feature_reminder: "Připomínky expirace"
+feature_reminder_desc: "Nikdy nezmeškejte datum expirace share code"
+feature_offline: "Offline přístup"
+feature_offline_desc: "Přístup ke kódům kdykoli, i bez internetu"
+feature_languages: "32 jazyků"
+feature_languages_desc: "Používejte aplikaci ve svém preferovaném jazyce"
+
+# Pricing Section
+pricing_title: "Vyberte si plán"
+pricing_free: "Zdarma"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/rok"
+pricing_recommended: "Doporučeno"
+pricing_free_feature_1: "Uložení 1 share code"
+pricing_free_feature_2: "Základní QR kód"
+pricing_free_feature_3: "Jeden jazyk"
+pricing_premium_feature_1: "Neomezené share kódy"
+pricing_premium_feature_2: "Apple Wallet integrace"
+pricing_premium_feature_3: "Připomínky expirace"
+pricing_premium_feature_4: "32 jazyků"
+pricing_premium_feature_5: "Rodinné sdílení"
+pricing_premium_feature_6: "Offline přístup"
+pricing_cta: "Začít"
+
+# CTA Section
+cta_title: "Připraveni zabezpečit svůj Share Code?"
+cta_subtitle: "Stáhněte nyní a nikdy se nebojte ztráty share code"
+
+# Footer
+footer_description: "Bezpečně ukládejte a spravujte své UK Home Office share kódy"
+footer_quick_links: "Rychlé odkazy"
+footer_privacy: "Zásady ochrany osobních údajů"
+footer_contact: "Kontakt"
+footer_copyright: "© 2025 Easy Share Code. Všechna práva vyhrazena."
+
+# Blog Section
+blog_title: "Nejnovější články"
+blog_read_more: "Číst více"
+blog_view_all: "Zobrazit všechny články"
+blog_no_posts: "Zatím žádné články. Zkontrolujte brzy!"
+blog_category_all: "Vše"
+blog_category_guide: "Průvodce UK Share Code"
+blog_category_visa: "Informace o vízech"
+blog_category_experience: "Uživatelské zkušenosti"
+blog_related: "Související články"
+blog_back: "Zpět na blog"
+
+# 404 Page
+error_404_title: "Stránka nenalezena"
+error_404_message: "Stránka, kterou hledáte, neexistuje nebo byla přesunuta."
+error_404_home: "Přejít na domovskou stránku"
+error_404_download: "Stáhnout aplikaci"

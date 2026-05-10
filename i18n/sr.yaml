@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Почетна"
+nav_features: "Функције"
+nav_blog: "Блог"
+nav_download: "Преузми"
+nav_language: "Промени језик"
+skip_to_content: "Пређи на главни садржај"
+
+# Hero Section
+hero_title: "Ваш UK Share Code, увек спреман"
+hero_subtitle: "Безбедно чувајте, управљајте и делите своје Home Office share кодове"
+hero_fomo: "Да ли је ваш share code спреман? Приступ за секунде у хитном случају."
+hero_cta: "Преузмите са App Store"
+
+# FOMO Section
+fomo_warning_title: "Ваш Share Code може да истекне!"
+fomo_warning_text: "Share кодови имају 3 различита рока важења. Не дозволите да вас изненаде."
+fomo_question: "Не можете да пронађете share code у хитном случају?"
+fomo_scenarios_title: "Када вам треба Share Code"
+fomo_scenario_job: "Пријаве за посао"
+fomo_scenario_rent: "Уговори о закупу"
+fomo_scenario_official: "Званичне процедуре"
+fomo_scenario_travel: "Улазак и излазак"
+fomo_family_title: "Пратите Share кодове породице"
+fomo_family_text: "Држите кодове свих чланова породице организоване на једном месту"
+fomo_validity_title: "3 рока важења за праћење"
+fomo_validity_30: "30 дана"
+fomo_validity_60: "60 дана"
+fomo_validity_90: "90 дана"
+fomo_validity_desc: "Сваки share code има различит рок истека. Пратите све."
+
+# Features Section
+features_title: "Све што вам треба"
+feature_multi_store: "Више Share кодова"
+feature_multi_store_desc: "Чувајте неограничен број share кодова за себе и породицу"
+feature_qr: "QR код приказ"
+feature_qr_desc: "Прикажите share code као QR за брзу проверу"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Додајте share code у Apple Wallet за тренутни приступ"
+feature_reminder: "Подсетници за истек"
+feature_reminder_desc: "Никада не пропустите датум истека share code"
+feature_offline: "Офлајн приступ"
+feature_offline_desc: "Приступите кодовима у било ком тренутку, чак и без интернета"
+feature_languages: "32 језика"
+feature_languages_desc: "Користите апликацију на жељеном језику"
+
+# Pricing Section
+pricing_title: "Изаберите план"
+pricing_free: "Бесплатно"
+pricing_premium: "Премиум"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/годишње"
+pricing_recommended: "Препоручено"
+pricing_free_feature_1: "Чување 1 share code"
+pricing_free_feature_2: "Основни QR код"
+pricing_free_feature_3: "Један језик"
+pricing_premium_feature_1: "Неограничени share кодови"
+pricing_premium_feature_2: "Apple Wallet интеграција"
+pricing_premium_feature_3: "Подсетници за истек"
+pricing_premium_feature_4: "32 језика"
+pricing_premium_feature_5: "Породично дељење"
+pricing_premium_feature_6: "Офлајн приступ"
+pricing_cta: "Почните"
+
+# CTA Section
+cta_title: "Спремни да обезбедите свој Share Code?"
+cta_subtitle: "Преузмите сада и никада се не брините о губитку share code"
+
+# Footer
+footer_description: "Безбедно чувајте и управљајте својим UK Home Office share кодовима"
+footer_quick_links: "Брзе везе"
+footer_privacy: "Политика приватности"
+footer_contact: "Контакт"
+footer_copyright: "© 2025 Easy Share Code. Сва права задржана."
+
+# Blog Section
+blog_title: "Најновији чланци"
+blog_read_more: "Прочитајте више"
+blog_view_all: "Погледајте све чланке"
+blog_no_posts: "Још нема чланака. Проверите ускоро!"
+blog_category_all: "Све"
+blog_category_guide: "Водич за UK Share Code"
+blog_category_visa: "Информације о визама"
+blog_category_experience: "Корисничко искуство"
+blog_related: "Повезани чланци"
+blog_back: "Назад на блог"
+
+# 404 Page
+error_404_title: "Страница није пронађена"
+error_404_message: "Страница коју тражите не постоји или је премештена."
+error_404_home: "Идите на почетну страницу"
+error_404_download: "Преузмите апликацију"

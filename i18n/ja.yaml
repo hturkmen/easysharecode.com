@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "ホーム"
+nav_features: "機能"
+nav_blog: "ブログ"
+nav_download: "ダウンロード"
+nav_language: "言語を変更"
+skip_to_content: "メインコンテンツへスキップ"
+
+# Hero Section
+hero_title: "UK Share Code、いつでも準備完了"
+hero_subtitle: "Home Officeのシェアコードを安全に保存・管理・共有"
+hero_fomo: "シェアコードの準備はできていますか？緊急時に数秒でアクセス。"
+hero_cta: "App Storeからダウンロード"
+
+# FOMO Section
+fomo_warning_title: "シェアコードの有効期限が切れる可能性があります！"
+fomo_warning_text: "シェアコードには3つの異なる有効期間があります。不意を突かれないように。"
+fomo_question: "緊急時にシェアコードが見つかりませんか？"
+fomo_scenarios_title: "シェアコードが必要な場面"
+fomo_scenario_job: "就職活動"
+fomo_scenario_rent: "賃貸契約"
+fomo_scenario_official: "公式手続き"
+fomo_scenario_travel: "入出国"
+fomo_family_title: "家族のシェアコードを追跡"
+fomo_family_text: "全家族のシェアコードを一か所で整理して管理"
+fomo_validity_title: "追跡すべき3つの有効期間"
+fomo_validity_30: "30日"
+fomo_validity_60: "60日"
+fomo_validity_90: "90日"
+fomo_validity_desc: "各シェアコードの有効期限は異なります。すべてを把握しましょう。"
+
+# Features Section
+features_title: "必要なものすべて"
+feature_multi_store: "複数のシェアコード"
+feature_multi_store_desc: "自分と家族のために無制限のシェアコードを保存"
+feature_qr: "QRコード表示"
+feature_qr_desc: "迅速な確認のためにQRとして表示"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "即時アクセスのためにApple Walletに追加"
+feature_reminder: "有効期限リマインダー"
+feature_reminder_desc: "シェアコードの有効期限を見逃さない"
+feature_offline: "オフラインアクセス"
+feature_offline_desc: "インターネットなしでもいつでもコードにアクセス"
+feature_languages: "32言語"
+feature_languages_desc: "お好みの言語でアプリを使用"
+
+# Pricing Section
+pricing_title: "プランを選択"
+pricing_free: "無料"
+pricing_premium: "プレミアム"
+pricing_free_price: "£0"
+pricing_premium_price: "£2.99/年"
+pricing_recommended: "おすすめ"
+pricing_free_feature_1: "1つのシェアコードを保存"
+pricing_free_feature_2: "基本QRコード表示"
+pricing_free_feature_3: "1言語"
+pricing_premium_feature_1: "無制限のシェアコード"
+pricing_premium_feature_2: "Apple Wallet連携"
+pricing_premium_feature_3: "有効期限リマインダー"
+pricing_premium_feature_4: "32言語"
+pricing_premium_feature_5: "ファミリー共有"
+pricing_premium_feature_6: "オフラインアクセス"
+pricing_cta: "始める"
+
+# CTA Section
+cta_title: "シェアコードを安全に保管する準備はできましたか？"
+cta_subtitle: "今すぐダウンロードして、シェアコードの紛失を心配しない"
+
+# Footer
+footer_description: "UK Home Officeのシェアコードを安全に保存・管理"
+footer_quick_links: "クイックリンク"
+footer_privacy: "プライバシーポリシー"
+footer_contact: "お問い合わせ"
+footer_copyright: "© 2025 Easy Share Code. All rights reserved."
+
+# Blog Section
+blog_title: "最新記事"
+blog_read_more: "続きを読む"
+blog_view_all: "すべての記事を見る"
+blog_no_posts: "まだ記事がありません。近日公開！"
+blog_category_all: "すべて"
+blog_category_guide: "UK Share Codeガイド"
+blog_category_visa: "ビザ情報"
+blog_category_experience: "ユーザー体験"
+blog_related: "関連記事"
+blog_back: "ブログに戻る"
+
+# 404 Page
+error_404_title: "ページが見つかりません"
+error_404_message: "お探しのページは存在しないか、移動されました。"
+error_404_home: "ホームページへ"
+error_404_download: "アプリをダウンロード"

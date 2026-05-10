@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "হোম"
+nav_features: "বৈশিষ্ট্য"
+nav_blog: "ব্লগ"
+nav_download: "ডাউনলোড"
+nav_language: "ভাষা পরিবর্তন"
+skip_to_content: "মূল বিষয়বস্তুতে যান"
+
+# Hero Section
+hero_title: "আপনার UK Share Code, সবসময় প্রস্তুত"
+hero_subtitle: "আপনার Home Office share code নিরাপদে সংরক্ষণ, পরিচালনা এবং শেয়ার করুন"
+hero_fomo: "আপনার share code প্রস্তুত? জরুরি অবস্থায় সেকেন্ডে অ্যাক্সেস করুন।"
+hero_cta: "App Store থেকে ডাউনলোড করুন"
+
+# FOMO Section
+fomo_warning_title: "আপনার Share Code মেয়াদ শেষ হতে পারে!"
+fomo_warning_text: "Share code-এর ৩টি ভিন্ন মেয়াদ আছে। অপ্রস্তুত হবেন না।"
+fomo_question: "জরুরি অবস্থায় share code খুঁজে পাচ্ছেন না?"
+fomo_scenarios_title: "কখন Share Code প্রয়োজন"
+fomo_scenario_job: "চাকরির আবেদন"
+fomo_scenario_rent: "ভাড়া চুক্তি"
+fomo_scenario_official: "সরকারি কাজ"
+fomo_scenario_travel: "প্রবেশ ও প্রস্থান"
+fomo_family_title: "পরিবারের Share Code ট্র্যাক করুন"
+fomo_family_text: "সব পরিবারের সদস্যদের share code এক জায়গায় সংগঠিত রাখুন"
+fomo_validity_title: "৩টি মেয়াদ ট্র্যাক করুন"
+fomo_validity_30: "৩০ দিন"
+fomo_validity_60: "৬০ দিন"
+fomo_validity_90: "৯০ দিন"
+fomo_validity_desc: "প্রতিটি share code-এর আলাদা মেয়াদ আছে। সবগুলো ট্র্যাক করুন।"
+
+# Features Section
+features_title: "আপনার যা দরকার সব"
+feature_multi_store: "একাধিক Share Code"
+feature_multi_store_desc: "নিজের এবং পরিবারের জন্য সীমাহীন share code সংরক্ষণ করুন"
+feature_qr: "QR কোড প্রদর্শন"
+feature_qr_desc: "দ্রুত যাচাইয়ের জন্য QR হিসেবে দেখান"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "তাৎক্ষণিক অ্যাক্সেসের জন্য Apple Wallet-এ যোগ করুন"
+feature_reminder: "মেয়াদ শেষের রিমাইন্ডার"
+feature_reminder_desc: "share code মেয়াদ শেষ কখনো মিস করবেন না"
+feature_offline: "অফলাইন অ্যাক্সেস"
+feature_offline_desc: "ইন্টারনেট ছাড়াও যেকোনো সময় কোড অ্যাক্সেস করুন"
+feature_languages: "৩২টি ভাষা"
+feature_languages_desc: "আপনার পছন্দের ভাষায় অ্যাপ ব্যবহার করুন"
+
+# Pricing Section
+pricing_title: "আপনার প্ল্যান বেছে নিন"
+pricing_free: "বিনামূল্যে"
+pricing_premium: "প্রিমিয়াম"
+pricing_free_price: "£০"
+pricing_premium_price: "£২.৯৯/বছর"
+pricing_recommended: "প্রস্তাবিত"
+pricing_free_feature_1: "১টি share code সংরক্ষণ"
+pricing_free_feature_2: "বেসিক QR কোড"
+pricing_free_feature_3: "একটি ভাষা"
+pricing_premium_feature_1: "সীমাহীন share code"
+pricing_premium_feature_2: "Apple Wallet ইন্টিগ্রেশন"
+pricing_premium_feature_3: "মেয়াদ শেষের রিমাইন্ডার"
+pricing_premium_feature_4: "৩২টি ভাষা"
+pricing_premium_feature_5: "পারিবারিক শেয়ারিং"
+pricing_premium_feature_6: "অফলাইন অ্যাক্সেস"
+pricing_cta: "শুরু করুন"
+
+# CTA Section
+cta_title: "Share Code সুরক্ষিত করতে প্রস্তুত?"
+cta_subtitle: "এখনই ডাউনলোড করুন এবং share code হারানোর চিন্তা থেকে মুক্ত হন"
+
+# Footer
+footer_description: "UK Home Office share code নিরাপদে সংরক্ষণ ও পরিচালনা করুন"
+footer_quick_links: "দ্রুত লিংক"
+footer_privacy: "গোপনীয়তা নীতি"
+footer_contact: "যোগাযোগ"
+footer_copyright: "© ২০২৫ Easy Share Code। সর্বস্বত্ব সংরক্ষিত।"
+
+# Blog Section
+blog_title: "সাম্প্রতিক নিবন্ধ"
+blog_read_more: "আরও পড়ুন"
+blog_view_all: "সব নিবন্ধ দেখুন"
+blog_no_posts: "এখনো কোনো নিবন্ধ নেই। শীঘ্রই আবার দেখুন!"
+blog_category_all: "সব"
+blog_category_guide: "UK Share Code গাইড"
+blog_category_visa: "ভিসা তথ্য"
+blog_category_experience: "ব্যবহারকারীর অভিজ্ঞতা"
+blog_related: "সম্পর্কিত নিবন্ধ"
+blog_back: "ব্লগে ফিরুন"
+
+# 404 Page
+error_404_title: "পৃষ্ঠা পাওয়া যায়নি"
+error_404_message: "আপনি যে পৃষ্ঠাটি খুঁজছেন তা বিদ্যমান নেই বা সরানো হয়েছে।"
+error_404_home: "হোম পেজে যান"
+error_404_download: "অ্যাপ ডাউনলোড করুন"

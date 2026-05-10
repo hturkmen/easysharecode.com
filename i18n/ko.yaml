@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "홈"
+nav_features: "기능"
+nav_blog: "블로그"
+nav_download: "다운로드"
+nav_language: "언어 변경"
+skip_to_content: "메인 콘텐츠로 건너뛰기"
+
+# Hero Section
+hero_title: "UK Share Code, 항상 준비 완료"
+hero_subtitle: "Home Office share code를 안전하게 저장, 관리, 공유하세요"
+hero_fomo: "share code 준비되셨나요? 긴급 상황에서 몇 초 만에 접근하세요."
+hero_cta: "App Store에서 다운로드"
+
+# FOMO Section
+fomo_warning_title: "Share Code가 만료될 수 있습니다!"
+fomo_warning_text: "Share code에는 3가지 유효 기간이 있습니다. 당황하지 마세요."
+fomo_question: "긴급 상황에서 share code를 찾을 수 없나요?"
+fomo_scenarios_title: "Share Code가 필요한 때"
+fomo_scenario_job: "취업 지원"
+fomo_scenario_rent: "임대 계약"
+fomo_scenario_official: "공식 절차"
+fomo_scenario_travel: "입출국"
+fomo_family_title: "가족의 Share Code 추적"
+fomo_family_text: "모든 가족 구성원의 share code를 한 곳에서 관리"
+fomo_validity_title: "추적할 3가지 유효 기간"
+fomo_validity_30: "30일"
+fomo_validity_60: "60일"
+fomo_validity_90: "90일"
+fomo_validity_desc: "각 share code의 만료일이 다릅니다. 모두 추적하세요."
+
+# Features Section
+features_title: "필요한 모든 것"
+feature_multi_store: "다중 Share Code"
+feature_multi_store_desc: "본인과 가족을 위해 무제한 share code 저장"
+feature_qr: "QR 코드 표시"
+feature_qr_desc: "빠른 확인을 위해 QR로 표시"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "즉시 접근을 위해 Apple Wallet에 추가"
+feature_reminder: "만료 알림"
+feature_reminder_desc: "share code 만료일을 절대 놓치지 마세요"
+feature_offline: "오프라인 접근"
+feature_offline_desc: "인터넷 없이도 언제든 코드에 접근"
+feature_languages: "32개 언어"
+feature_languages_desc: "선호하는 언어로 앱 사용"
+
+# Pricing Section
+pricing_title: "플랜 선택"
+pricing_free: "무료"
+pricing_premium: "프리미엄"
+pricing_free_price: "£0"
+pricing_premium_price: "£2.99/년"
+pricing_recommended: "추천"
+pricing_free_feature_1: "1개 share code 저장"
+pricing_free_feature_2: "기본 QR 코드"
+pricing_free_feature_3: "1개 언어"
+pricing_premium_feature_1: "무제한 share code"
+pricing_premium_feature_2: "Apple Wallet 통합"
+pricing_premium_feature_3: "만료 알림"
+pricing_premium_feature_4: "32개 언어"
+pricing_premium_feature_5: "가족 공유"
+pricing_premium_feature_6: "오프라인 접근"
+pricing_cta: "시작하기"
+
+# CTA Section
+cta_title: "Share Code를 안전하게 보관할 준비가 되셨나요?"
+cta_subtitle: "지금 다운로드하고 share code 분실 걱정에서 벗어나세요"
+
+# Footer
+footer_description: "UK Home Office share code를 안전하게 저장하고 관리하세요"
+footer_quick_links: "빠른 링크"
+footer_privacy: "개인정보 보호정책"
+footer_contact: "연락처"
+footer_copyright: "© 2025 Easy Share Code. All rights reserved."
+
+# Blog Section
+blog_title: "최신 글"
+blog_read_more: "더 읽기"
+blog_view_all: "모든 글 보기"
+blog_no_posts: "아직 글이 없습니다. 곧 확인하세요!"
+blog_category_all: "전체"
+blog_category_guide: "UK Share Code 가이드"
+blog_category_visa: "비자 정보"
+blog_category_experience: "사용자 경험"
+blog_related: "관련 글"
+blog_back: "블로그로 돌아가기"
+
+# 404 Page
+error_404_title: "페이지를 찾을 수 없습니다"
+error_404_message: "찾으시는 페이지가 존재하지 않거나 이동되었습니다."
+error_404_home: "홈페이지로 이동"
+error_404_download: "앱 다운로드"

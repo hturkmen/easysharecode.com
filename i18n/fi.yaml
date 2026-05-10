@@ -1,0 +1,92 @@
+# Navigation
+nav_home: "Etusivu"
+nav_features: "Ominaisuudet"
+nav_blog: "Blogi"
+nav_download: "Lataa"
+nav_language: "Vaihda kieli"
+skip_to_content: "Siirry pääsisältöön"
+
+# Hero Section
+hero_title: "UK Share Code -koodisi, aina valmiina"
+hero_subtitle: "Tallenna, hallitse ja jaa Home Office share -koodisi turvallisesti"
+hero_fomo: "Onko share code valmiina? Pääsy sekunneissa hätätilanteessa."
+hero_cta: "Lataa App Storesta"
+
+# FOMO Section
+fomo_warning_title: "Share Code voi vanhentua!"
+fomo_warning_text: "Share-koodeilla on 3 eri voimassaoloaikaa. Älä jää yllättymään."
+fomo_question: "Etkö löydä share codea hätätilanteessa?"
+fomo_scenarios_title: "Milloin tarvitset Share Coden"
+fomo_scenario_job: "Työhakemukset"
+fomo_scenario_rent: "Vuokrasopimukset"
+fomo_scenario_official: "Viralliset menettelyt"
+fomo_scenario_travel: "Maahantulo ja lähtö"
+fomo_family_title: "Seuraa perheen Share-koodeja"
+fomo_family_text: "Pidä kaikkien perheenjäsenten share-koodit järjestyksessä yhdessä paikassa"
+fomo_validity_title: "3 voimassaoloaikaa seurattavana"
+fomo_validity_30: "30 päivää"
+fomo_validity_60: "60 päivää"
+fomo_validity_90: "90 päivää"
+fomo_validity_desc: "Jokaisella share codella on eri vanhenemispäivä. Seuraa kaikkia."
+
+# Features Section
+features_title: "Kaikki mitä tarvitset"
+feature_multi_store: "Useita Share-koodeja"
+feature_multi_store_desc: "Tallenna rajattomasti share-koodeja itsellesi ja perheelle"
+feature_qr: "QR-koodin näyttö"
+feature_qr_desc: "Näytä share code QR-koodina nopeaan vahvistukseen"
+feature_wallet: "Apple Wallet"
+feature_wallet_desc: "Lisää share code Apple Walletiin välitöntä pääsyä varten"
+feature_reminder: "Vanhenemismuistutukset"
+feature_reminder_desc: "Älä koskaan unohda share coden vanhenemispäivää"
+feature_offline: "Offline-käyttö"
+feature_offline_desc: "Pääsy koodeihin milloin tahansa, jopa ilman internetiä"
+feature_languages: "32 kieltä"
+feature_languages_desc: "Käytä sovellusta haluamallasi kielellä"
+
+# Pricing Section
+pricing_title: "Valitse suunnitelmasi"
+pricing_free: "Ilmainen"
+pricing_premium: "Premium"
+pricing_free_price: "£0"
+pricing_premium_price: "£2,99/vuosi"
+pricing_recommended: "Suositeltu"
+pricing_free_feature_1: "1 share code tallennus"
+pricing_free_feature_2: "Perus QR-koodi"
+pricing_free_feature_3: "Yksi kieli"
+pricing_premium_feature_1: "Rajattomat share-koodit"
+pricing_premium_feature_2: "Apple Wallet -integraatio"
+pricing_premium_feature_3: "Vanhenemismuistutukset"
+pricing_premium_feature_4: "32 kieltä"
+pricing_premium_feature_5: "Perhejako"
+pricing_premium_feature_6: "Offline-käyttö"
+pricing_cta: "Aloita"
+
+# CTA Section
+cta_title: "Valmis turvaamaan Share Codesi?"
+cta_subtitle: "Lataa nyt äläkä enää huolehdi share coden katoamisesta"
+
+# Footer
+footer_description: "Tallenna ja hallitse UK Home Office share -koodejasi turvallisesti"
+footer_quick_links: "Pikalinkit"
+footer_privacy: "Tietosuojakäytäntö"
+footer_contact: "Yhteystiedot"
+footer_copyright: "© 2025 Easy Share Code. Kaikki oikeudet pidätetään."
+
+# Blog Section
+blog_title: "Uusimmat artikkelit"
+blog_read_more: "Lue lisää"
+blog_view_all: "Näytä kaikki artikkelit"
+blog_no_posts: "Ei vielä artikkeleita. Tarkista pian!"
+blog_category_all: "Kaikki"
+blog_category_guide: "UK Share Code -opas"
+blog_category_visa: "Viisumitiedot"
+blog_category_experience: "Käyttäjäkokemukset"
+blog_related: "Aiheeseen liittyvät artikkelit"
+blog_back: "Takaisin blogiin"
+
+# 404 Page
+error_404_title: "Sivua ei löydy"
+error_404_message: "Etsimääsi sivua ei ole olemassa tai se on siirretty."
+error_404_home: "Siirry etusivulle"
+error_404_download: "Lataa sovellus"
