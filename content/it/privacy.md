@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "Privacy Policy for Easy Share Code UK iOS app"
+description: "Privacy Policy for Easy Share Code UK iOS and Android app"
 layout: "single"
 ---
 
@@ -8,7 +8,7 @@ layout: "single"
 
 **Last updated: 10 May 2025**
 
-Easy Share Code ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how we handle your information when you use our iOS application.
+Easy Share Code ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how we handle your information when you use our iOS and Android applications.
 
 ## Summary
 
@@ -28,7 +28,7 @@ The app stores the following information **only on your device**:
 - Share codes you enter
 - Expiry dates you set
 - Language preference
-- Apple Wallet pass data (stored in Apple Wallet)
+- Apple Wallet / Google Wallet pass data (stored in your device's wallet app)
 
 This data **never leaves your device** and is not transmitted to us or any third party.
 
@@ -52,7 +52,8 @@ We do not use your information because we do not collect it. Your share codes an
 
 - All share code data is stored locally using iOS secure storage mechanisms
 - Apple Wallet passes are managed by iOS and protected by your device's security (Face ID, Touch ID, or passcode)
-- We have no server infrastructure that stores user data
+- When you add a pass to Apple Wallet or Google Wallet, your share code information is temporarily sent to our pass generation server to create the pass. This data is not stored on our servers after the pass is generated.
+- When using the 'Add to Wallet' feature, share code data is transmitted securely (HTTPS) to generate the pass, then immediately discarded.
 - Deleting the app removes all locally stored data
 
 ---
@@ -65,6 +66,7 @@ The app does **not** integrate with any third-party services that collect user d
 - No analytics SDKs
 - No social media SDKs
 - No crash reporting services that collect personal data
+- Google Wallet API (for pass generation on Android)
 
 ---
 
@@ -97,6 +99,8 @@ If you have any questions about this Privacy Policy, please contact us:
 
 - **Email:** privacy@easysharecode.com
 - **Website:** [https://www.easysharecode.com](https://www.easysharecode.com)
+- **App Store:** [Download on iOS](https://apps.apple.com/gb/app/easy-share-code-uk/id6744980944)
+- **Play Store:** [Download on Android](https://play.google.com/store/apps/details?id=com.easysharecode.app)
 
 ---
 
@@ -107,3 +111,4 @@ This Privacy Policy is governed by the laws of England and Wales and complies wi
 - UK General Data Protection Regulation (UK GDPR)
 - Data Protection Act 2018
 - Apple App Store Guidelines
+- Google Play Store Policies
